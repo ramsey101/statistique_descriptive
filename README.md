@@ -1114,7 +1114,7 @@ est appelé la fréquence partielle de C i.
 **Définition 16**
 
 ```js
-On appelle l’effectif cumulé de C ila quantité
+On appelle l’effectif cumulé de C i la quantité
                         i
                  N i := ∑ nj. 
                        j=1
@@ -1123,7 +1123,7 @@ On appelle l’effectif cumulé de C ila quantité
 **Définition 17**
 
 ```js
-On appelle la fréquence cumulée de C ila quantité
+On appelle la fréquence cumulée de C i la quantité
 
                         i
                  F i := ∑ fj
@@ -1142,7 +1142,7 @@ Nous avons, comme dans le chapitre précédent, les interprétations suivantes :
 - F _i_ : _est le pourcentage des w tel que_
 
 ```js
-                      X(w)∈C 1 ∪...∪C i.
+                      X(w)∈ C1 ∪...∪ Ci.
 ```
 ### 3.2 Représentation graphique d’un caractère continu
 
