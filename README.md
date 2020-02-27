@@ -752,48 +752,59 @@ La fonction de répartition satisfait, pour i∈{ 1 ,...,n} ,
 l’égalité,F x (x i ) = F i,
 
 l’expression, F x (x) =
-                              0 , si x < x 1 ,
-                              F 1 , si x 1 ≤x < x 2 ,
-                              F i , si x i ≤x < x i +1,
-                              1 , si x≥x n.
+                              0 , si x < x1 ,
+                              F1 , si x1 ≤x < x2 ,
+                              Fi , si x i ≤x < xi +1,
+                              1 , si x ≥ xn.
 
 ```
 
 ### 2.4 Paramètres de position (caractéristique de tendance centrale) 
 
 
-
+```console
 Les indicateurs statistiques de tendance centrale (dits aussi de position) considérés
 fréquemment sont la moyenne, la médiane et le mode.
+```
 
 **Le mode**
 
-```
+```console
 Le mode d’une V.S est la valeur qui a le plus grand effectif partiel (ou la plus grande
 fréquence partielle) et il est dénoté parM 0.
 ```
 
-```
-Exemple 13
+
+- Exemple 13
+
+```js
 Dans l’exemple précédent, le mode est égal à 2 qui correspondant au plus grand effectif.
 ```
 # image exemple 13
 
-```
-Remarque 5
+
+_Remarque 5_
+
+```console
 On peut avoir plus d’un mode ou rien.
 ```
+
 **La médiane**
 
-```
+```console
 On appelle médiane la valeur Me de la V.S X qui vérifie la relation suivante : 
-                     F x (Me−)< 0. 5 ≤F x (Me+) =F x (Me).
+```
+```js
+              F x (Me−)< 0. 5 ≤F x (Me+) =F x (Me).
+```
+```console
 La médiane partage la série statistique en deux groupes de même effectif.
 
 ```
 
-***Exemple 14***
-```
+- Exemple 14
+
+```js
    Dans l’exemple précédent, la relation 
              F x (0) = 0< 0. 5 ≤F x (0+) = 0. 09
    n’est pas satisfaite. Donc, la médiane est différente de 0. Par contre, nous avons
@@ -805,110 +816,131 @@ La médiane partage la série statistique en deux groupes de même effectif.
 
 ```console
 On appelle moyenne deX, la quantité
+```
 
+```js
              _        n         n
              x= 1/N * ∑ nixi= ∑ fixi, 
                      i =1      i=1  
-
+```
+```console
 avecN=Card(Ω). On peut donc exprimer et calculer la moyenne dite "arithmétique" avec
 des effectifs ou avec des fréquences.
 
 ```
-**Exemple 15**
-```console
+
+- Exemple 15
+
+```js
    _
 Si x= 2. 46 , alors nous avons au moyenne une famille de quartier a 2. 46 d’enfants.
 ```
-
+```console
 La valeur de la moyenne est abstraite. Comme dans l’exemple précédent,x= 2. 46 est
 un chiffre qui ne correspond pas à un fait concret.
+```
 
-
-```console
-La moyenne arithmétique dont on vient d’indiquer la formule est dite moyenne pon-
-dérée ; cela signifie que chaque valeur de la variable est multipliée (pondérée) par un coef-
-ficient, ici par l’effectifn _i_ qui lui correspond. Dans ce cas, chaque valeurx _i_ de la variable
+```js
+La moyenne arithmétique dont on vient d’indiquer la formule est dite moyenne pondérée;
+cela signifie que chaque valeur de la variable est multipliée (pondérée) par un 
+coefficient, ici par l’effectifn i qui lui correspond. Dans ce cas, chaque valeurx i de la
 intervient dans le calcul de la moyenne autant de fois qu’elle a été observée. On parle de
-moyenne arithmétique simple quand on n’effectue pas de pondération. Par exemple, si 5
+variable moyenne arithmétique simple quand on n’effectue pas de pondération. Par exemple, si 5
 étudiants ont pour âge respectif 18 , 19 , 20 , 21 et 22 ans, leur âge moyen est donné par
 (18 + 19 + 20 + 21 + 22)/5 = 20ans.
 
 ```
 
-**Remarque 6**
+_Remarque 6_
 
+```console
 Nous mentionnons qu’il existe d’autres moyennes que la moyenne arithmétique
+```
 
 ### 2.5 Paramètres de dispersion (variabilité)
 
+```console
 Les indicateurs statistiques de dispersion usuels sont l’étendue, la variance et l’écart-
 type.
+```
 
 **L’étendue**
 
+```console
 La différence entre la plus grande valeur et la plus petite valeur du caractère, donnée
 par la quantité
-```console
+```
+```js
                        e=xmax−xmin,
 ```                       
-
+```console
 s’appelle l’étendue de la V.S X. Le calcul de l’étendue est très simple. Il donne une première
 idée de la dispersion des observations. C’est un indicateur très rudimentaire et il existe des
 indicateurs de dispersion plus élaborés (voir ci-dessous).
+```
 
 **La variance**
 
 ```console
 On appelle variance de cette série statistiqueX, le nombre
-          n      _
-V ar(X) = ∑ f i (x − xi )^2 
-         i=1
 ```
+```js
+                n      _
+      V ar(X) = ∑ f i (x − xi )^2 
+               i=1
 ```
+```console
 On dit que la variance est la moyenne des carrés des écarts à la moyennex. Les « écarts à
 la moyenne » sont les(x(bar) − xi), les « carrés des écarts à la moyenne » sont donc les(x(bar) − xi )^2.
 En faisant la moyenne de ces écarts, on trouve la variance.
-```
+
 Le théorème suivant (Théorème de König-Huygens) donne une identité remarquable reliant
 la variance et la moyenne, parfois plus pratique dans le calcule de la variance.
+```
 
+**Théorème 1**
 
-**Théorème 1*, 
-```js
+```console
 
 Soit (x i ,n i ) une série statistique de moyenne x et de variance V ar(X). Alors,
- 
+```
+```js
                           n      _
                 V ar(X) = ∑ f i (x − xi )^2 
                          i=1
 
 ```
-**Remarque 7**
+_Remarque 7_
 
+```condole
 Dans l’utilisation de la formule du théorème précédent, il faut veiller à remplacer x par
 sa valeur approchée la plus précise possible.
-
+```
 
 
 
 **L’écart type**
 
-```console
+```js
 La quantité:
           σ X = √V ar(x)
 s’appelle l’écart type de la V.SX.
 ```
 
-**Remarque 8**
+_Remarque 8_
 
+```console
 Le paramètre σ xmesure la distance moyenne entre x et les valeurs de X (voir Figure
 2.7). Il sert à mesurer la dispersion d’une série statistique autour de sa moyenne.
 
-_- Plus il est petit, plus les caractères sont concentrés autour de la moyenne (on_
-    _dit que la série est homogène).
+- Plus il est petit, plus les caractères sont concentrés autour de la moyenne (on_
+    dit que la série est homogène).
 - Plus il est grand, plus les caractères sont dispersés autour de la moyenne (on_
-    _dit que la série est hétérogène)._
+    _dit que la série est hétérogène).
+```
+```
 # image figure 2.7
+```
 ```
 Figure2.7:La dispersion d’une série statistique autour de sa moyenne
 ```
@@ -917,16 +949,17 @@ Figure2.7:La dispersion d’une série statistique autour de sa moyenne
 
 ### Étude d’une variable statistique continue 
 
- 
+```console
 Nous rappelons qu’une variable statistique (V.S) quantitative concerne une grandeur esurable.
 Ses valeurs sont des nombres exprimant une quantité et sur lesquelles les opérations
 arithmétiques (addition, multiplication, etc,...) ont un sens. Nous allons dans ce
 chapitre se focaliser sur la V.S quantitative continue.
+```
 
 ### 3.1 Caractère continu
 
 
-Définition 11
+**Définition 11**
 
 ```console
 On appelle V.S continue (ou caractère continu) toute application de Ω et à valeurs
@@ -934,16 +967,17 @@ réelles et qui prend un nombre "important" de valeurs (Les caractères continus
 ceux qui ont une infinité de modalités).
 ```
 
-**Exemple 16**
+- Exemple 16
 
-```js
+```console
 Soit Ω l’ensemble des nouveaux nés au C.H.U d’une ville pendant les 3 premiers mois
 de 2017. Nous désignons par X le poids des nouveaux nés. On suppose que
-           
+ ```
+ ```js
              x min = 2. 701 et x max = 5. 001.
 ```
 
-**Remarque 9**
+_Remarque 9_
 
 ```console
       Comment étudier ce caractère?
