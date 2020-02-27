@@ -654,8 +654,8 @@ Le degré d’un secteur est déterminé à l’aide de la règle de trois de la
 
 ```
 ```js
-                N−→ 360 ◦ 
-                n i −→ d i (degréde la modalitéi).
+                N → 360 ◦ 
+                n i → d i (degréde la modalitéi).
                 Donc, d i = (n i * 360)/N 
 ```
 
@@ -663,13 +663,14 @@ Le degré d’un secteur est déterminé à l’aide de la règle de trois de la
 
 #### 2.3.2 Distribution à caractère quantitatif discret
 
+```console
 A partir de l’observation d’une variable quantitative discrète, deux diagrammes per-
 mettent de représenter cette variable : le diagramme en bâtons et le diagramme cumulatif
 (voir ci-dessous).
 
 Pour l’illustration, nous prenons l’exemple précédent de départ (nombre d’enfants par
 famille). Nous rappelons le tableau statistique associe.
-
+```
 
 
 | x i | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -679,45 +680,58 @@ famille). Nous rappelons le tableau statistique associe.
 
 **Diagramme à bâtons**
 
+```console
 On veut représenter cette répartition sous la forme d’un diagramme en bâtons. À
 chaque marque correspond un bâton. Les hauteurs des bâtons sont proportionnelles aux
 effectifs représentés (voir Figure 2.5).
+```
 # image figure 2.5
+
 ```
 Figure2.5:Diagramme à bâtons
 ```
+
 #### 2.3.3 Représentation sous forme de courbe et fonction de répartition
 
+```console
 Nous avons déjà abordé les distributions cumulées d’une variable statistique. Nous
 allons dans cette partie exploiter ses valeurs cumulées pour introduire la notion de la fonction
 de répartition. Cette notion ne concerne que les variables quantitatives.
+```
 
 
-
-```console
+```js
 Soit la fonctionF x :R→[0,1]définie par 
-F x (x) :=pourcentage des individus dont la valeur du caractère est≤x. 
+             F x (x) :=pourcentage des individus dont la valeur du caractère est≤x. 
 Cette fonction s’appelle la fonction de répartition du caractèreX.
 
 ```
-Remarque 4
+_Remarque 4_
+
+```js
 Pour tout i∈{ 1 ,...,n} , on a
 F x (x i ) =F i.
 La courbe de F xpasse par les points (x 1 ,F 1 ) , (x 2 ,F 2 ),... et (x n ,F n ).
+```
 
 ```console
 En se basant sur notre exemple, la courbe deF _x_ est représentée ci-dessous (Figure 2.6)
 sur
-               R=]−∞,0[∪[0,1[∪.... ∪ [6,+∞[.
-
-Dans ce cas, nous avons
 ```
+```js
+               R=]−∞,0[∪[0,1[∪.... ∪ [6,+∞[.
+```
+```js
+Dans ce cas, nous avons:
+
 - Six < 0 , alorsF _x_ (x) = 0.
 - Six∈[0,1[, alorsF _x_ (x) = 0. 09.
     ...
 - Six≥ 6 , alorsF _x_ (x) = 1.
 
 ```
+
+```console
 Cette courbe s’appelle "la courbe cumulative des fréquences". La courbe cumulative est une
 courbe en escalier représentant les fréquences cumulées relatives.
 ```
@@ -728,10 +742,13 @@ Figure2.6:Représentation d’une variable quantitative discrète par la courbe 
 
 
 
-```
-Proposition 2
-La fonction de répartition satisfait, pour i∈{ 1 ,...,n} ,
 
+- Proposition 2
+
+```console
+La fonction de répartition satisfait, pour i∈{ 1 ,...,n} ,
+```
+```js
 l’égalité,F x (x i ) = F i,
 
 l’expression, F x (x) =
