@@ -451,7 +451,7 @@ Dans l’exemple précédent, 66 est le nombre de familles qui ont 2 enfants.
 Pour chaque valeur x i, on pose par définition
 ```
 ```js
-               N i =n 1 +n 2 +...+ni
+               N i = n1 + n2 + ... + ni
 ```
 ```console
 L’effectif cumulé N id’une valeur est la somme de l’effectif de cette valeur et de tous
@@ -473,8 +473,8 @@ inférieur à 1. Nous le regardons dans le tableau suivant :
 **Interprétation** :
 
 ```console
-N _i_ est le nombre d’individus dont la valeur du caractère est inférieur
-ou égale àx _i_. De ce fait, l’effectif total est donné par
+N i est le nombre d’individus dont la valeur du caractère est inférieur
+ou égale à x i. De ce fait, l’effectif total est donné par
 ```
 ```js
                               n
@@ -487,33 +487,45 @@ Dans notre exemple précédent, nous avonsN= 200.
 
 ### 2.2 Fréquence partielle - Fréquence cumulée
 
-Typiquement les effectifsn _i_ sont grands et il est intéressant de calculer des grandeurs
-permettant de résumer la série.
+```console
+Typiquement les effectifsn i sont grands et il est intéressant de calculer des 
+grandeurs permettant de résumer la série. 
+
+```
 
 #### 2.2.1 Fréquence partielle (fréquence relative)
 
-```
-Définition 9
-Pour chaque valeur x i, on pose par définition
 
+**Définition 9**
+
+```console
+Pour chaque valeur x i, on pose par définition
+```
+```js
                    f i :=n i/N
 
 ```
 
 
-```
+```console
 f is’appelle la fréquence partielle de x i. La fréquence d’une valeur est le rapport de
 l’effectif de cette valeur par l’effectif total.
 ```
-```
-Remarque 3
+
+_Remarque 3_
+
+```console
 On peut remplacer f ipar f i × 100 qui représente alors un pourcentage.
 ```
 
-**Interprétation**: f i = est le pourcentage desωtel queX(ω) =x i.*
+**Interprétation**:
+```js
+f i = est le pourcentage des ω tel queX(ω) =x i.
 
 ```
-Exemple 11
+- Exemple 11
+
+```js
 Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d’enfants égale
 à 2. Ce pourcentage est calculé de la façon suivante ( N= 200 ) :
 ```
@@ -524,13 +536,13 @@ Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d�
 | ni(Effectif)| ··· | 66 |···|
 | Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
 
-
+```console
 Nous pouvons conclure la propriété suivante.
 
 ```
-Proposition 1
-Soit f idéfini comme précédemment. Alors,
-
+- Proposition 1
+  - Soit f idéfini comme précédemment. Alors,
+```js
                    n
                    ∑ fi = 1
                    i =1
@@ -541,46 +553,68 @@ Soit f idéfini comme précédemment. Alors,
 
 #### 2.2.2 Fréquence cumulée
 
-```
-Définition 10
-Pour chaque valeur x i, on pose par définition
 
+**Définition 10**
+
+```console
+Pour chaque valeur x i, on pose par définition
+```
+```js
                     F i =f 1 +f 2 +...+f i. 
+```
+```console
 La quantité F is’appelle la fréquence cumulée de x i.
 ```
 
-**Interprétation** : F _i_ =est le pourcentage desωtel que la valeurX(ω)est inférieure
-ou égale àx _i_.
+**Interprétation** :
+
+```js
+F i =est le pourcentage desωtel que la valeur X(ω)est inférieure
+ou égale àx i.
 
 ```
-Exemple 12
-```
-_- Dans l’exemple précédent,_ 0. 785 _représente_ 78 .5% _de familles dont le nombre d’en-
-fants est inférieur ou égale à_ 3_.
+- Exemple 12
 
+```js
+Dans l’exemple précédent, 0. 785 représente 78 .5% de familles dont le nombre d’enfants
+est inférieur ou égale à 3.
+```
 
 
 
 ### 2.3 Représentation graphique des séries statistiques
 
+```console
 On distingue les méthodes de représentation d’une variable statistique en fonction de
 la nature de cette variable (qualitative ou quantitative). Les représentations recommandées
 et les plus fréquentes sont les tableaux et les diagrammes (graphe).
 
-```
+
 Le graphique est un support visuel qui permet :
 ```
-**La synthèse** : visualiser d’un seul coup d’œil les principales caractéristiques (mais on
+**La synthèse** : 
+```console
+visualiser d’un seul coup d’œil les principales caractéristiques (mais on
 perd une quantité d’informations), voir Figure 2.2.
+```
 # image figure 2.2
 ```
 Figure2.2:Quelques caractéristiques du graphique
 
 ```
-**La découverte** : met en évidence les tendances.
-**Le contrôle** : on aperçoit mieux les anomalies sur un graphique que dans un tableau.
-**La recherche des régularités** : régularité dans le mouvement, répétition du phéno-
+**La découverte** : 
+```console
+met en évidence les tendances.
+```
+**Le contrôle** :
+```console 
+on aperçoit mieux les anomalies sur un graphique que dans un tableau.
+```
+**La recherche des régularités** : 
+```console 
+régularité dans le mouvement, répétition du phéno-
 mène.
+```
 
 #### 2.3.1 Distribution à caractère qualitatif
 
