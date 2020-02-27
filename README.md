@@ -348,9 +348,10 @@ Les éléments de C sont représentés par autre chose que des chiffres.
 Exemple 6
 L’état d’une maison : on peut considérer les modalités suivantes
 ```
-_- Ancienne.
+
+- Ancienne.
 - Dégradée.
-- Nouvelle._
+- Nouvelle.
 
 
 ##### 6 1.2. TYPES DES CARACTÈRES
@@ -535,7 +536,7 @@ Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d�
 
 | xi | ··· | 2 | ··· |
 |----| --- |---| --- |
-| ni(Effectif)| ··· | 66 | 
+| ni(Effectif)| ··· | 66 |---|
 | Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
 
 
