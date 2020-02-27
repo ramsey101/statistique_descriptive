@@ -43,7 +43,7 @@ La place de ce cours dans le future métier des étudiants :
 ```js
 [ ] La partie entière.
 
-Card(Ω) Le cardinal : nombre d’éléments de l’ensembleΩ.
+Card(Ω) Le cardinal : nombre d’éléments de l'ensemble Ω.
 
 := Est défini comme étant (symbole d’affectation). 
 
@@ -56,7 +56,7 @@ R Ensemble des nombres réels.
 R^2 Ensemble des couples de nombres réels.
 
 n
-∑ = La somme pourivariant de 1 àn.
+∑ = La somme pourivariant de 1 à n.
 i 
 
 V.S La variable statistique
@@ -69,17 +69,18 @@ Me− Me par valeur inférieure.
 
 M 0 Le mode.
 
-x La moyenne d’une série statistiqueX.
+_
+x La moyenne d’une série statistique X.
 
-σ X L’écart-type deX.
+σ X L’écart-type de X.
 
-Var(X) La variance deX.
+Var(X) La variance de X.
 
-Cov(X,Y) La covariance entre les variablesXetY.
+Cov(X,Y) La covariance entre les variables X et Y.
 
-ρXY Le coefficient de corrélation entre les variablesXetY.
+ρXY Le coefficient de corrélation entre les variables X et Y.
 
-F(x) La fonction s’appelle la fonction de répartition du caractèreX
+F(x) La fonction s’appelle la fonction de répartition du caractère X
 
 ```
 
