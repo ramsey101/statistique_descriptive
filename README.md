@@ -316,7 +316,7 @@ _- Variable est " situation familiale "_
     _Modalités sont " célibataire, marié, divorcé "_
 
 
-##### 1.2. TYPES DES CARACTÈRES 5
+##### 1.2. TYPES DES CARACTÈRES 
 
 _- Variable est" statut d’interrupteur "_
     _Modalités sont " 0 et 1 ".
@@ -330,6 +330,8 @@ trouver à l’égard du caractère considéré.
 
 Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
 tères quantitatifs.
+
+# iamge1. 2
 
 #### 1.2.1 Caractère qualitatif
 
@@ -420,12 +422,12 @@ On note X le nombre d’enfants, les résultats sont données par ce tableau :
 | ni(Effectif) | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
 
 
-```
+
 _-_ Ω _ensemble des familles.
 -_ ω _une famille.
 -_ X _nombre d’enfants par famille_
 
-
+```
                     X:ω→X(ω).
 ```
 
@@ -442,23 +444,13 @@ la valeur du caractère avecivarie de 1 àk.
 #### 2.1.1 Effectif partiel (fréquence absolue)
 
 ```
-Définition 7
+Définition 
 Pour chaque valeur x i, on pose par définition
-```
-```
-n i = Card {ω∈Ω : X(ω) =x i }.
-```
-```
+                 n i = Card {ω∈Ω : X(ω) =x i }.
+                 
 n i: le nombre d’individus qui ont le même x i, ça s’appelle effectif partiel de x i.
 ```
-#### ni x
-
-```
-i
-```
-```
-w
-```
+# image 2.1.1
 ```
 Figure2.1:Le nombre d’individus qui prennent la valeurx i.
 ```
@@ -466,25 +458,21 @@ Figure2.1:Le nombre d’individus qui prennent la valeurx i.
 Exemple 9
 Dans l’exemple précédent, 66 est le nombre de familles qui ont 2 enfants.
 ```
-```
-x i ··· 2 ···
-```
-```
-n i(Effectif) ··· 66 ···
-```
 
-##### 2.2. FRÉQUENCE PARTIELLE - FRÉQUENCE CUMULÉE 13
+| x | i | ··· | 2 | ··· |
+|---|---|-----|---|-----|
+| n i(Effectif)| ··· | 66 | ··· |
+
+
+##### 2.2. FRÉQUENCE PARTIELLE - FRÉQUENCE CUMULÉE 
 
 #### 2.1.2 Effectif cumulé
 
 ```
 Définition 8
 Pour chaque valeur x i, on pose par définition
-```
-```
-N i =n 1 +n 2 +...+n i.
-```
-```
+
+               N i =n 1 +n 2 +...+ni
 L’effectif cumulé N id’une valeur est la somme de l’effectif de cette valeur et de tous
 les effectifs des valeurs qui précèdent.
 ```
@@ -493,24 +481,18 @@ Exemple 10
 Dans l’exemple précédent : 50 est le nombre de familles qui ont un nombre d’enfant
 inférieur à 1. Nous le regardons dans le tableau suivant :
 ```
+
+| xi | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|----|---|---|---|---|---|---|---|
+|Ni | 18 | 50 | 116 | 157 | 189 | 198 | 200 |
 ```
-x i 0 1 2 3 4 5 6
-```
-```
-N i 18 50 116 157 189 198 200
-```
-**Interprétation** :N _i_ est le nombre d’individus dont la valeur du caractère est inférieur
+**Interprétation** :
+N _i_ est le nombre d’individus dont la valeur du caractère est inférieur
 ou égale àx _i_. De ce fait, l’effectif total est donné par
 
-```
-N=card{Ω) =
-```
-```
-∑ n
-i =1
-```
-```
-n i.
+                              n
+                   N=card{Ω) =∑ ni
+                             i=1
 ```
 Dans notre exemple précédent, nous avonsN= 200.
 
@@ -524,10 +506,9 @@ permettant de résumer la série.
 ```
 Définition 9
 Pour chaque valeur x i, on pose par définition
-```
-```
-f i :=n i
-N
+
+                   f i :=n i/N
+
 ```
 ##### .
 
@@ -550,14 +531,15 @@ Exemple 11
 Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d’enfants égale
 à 2. Ce pourcentage est calculé de la façon suivante ( N= 200 ) :
 ```
-```
-x i ··· 2 ···
-n i(Effectif) ··· 66 ···
-```
-```
-N i(Effectif) ··· 20066 = 0. 33 ···
-```
-```
+
+
+| xi | ··· | 2 | ··· |
+|----| --- |---| --- |
+| ni(Effectif)| ··· | 66 |
+|-------------|-----|----|
+| Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
+
+
 Nous pouvons conclure la propriété suivante.
 ```
 ```
