@@ -349,14 +349,14 @@ Exemple 6
 L’état d’une maison : on peut considérer les modalités suivantes
 ```
 
-- Ancienne.
-- Dégradée.
-- Nouvelle.
-
-
-##### 6 1.2. TYPES DES CARACTÈRES
-
+_- Ancienne.
+_- Dégradée.
+_- Nouvelle.
 _- Rénovée._
+
+
+
+
 
 #### 1.2.2 Caractère quantitatif
 
