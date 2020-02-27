@@ -361,12 +361,16 @@ statistiques sont analysées différemment selon leur nature (quantitative, qual
 Le caractère statistique peut prendre un nombre fini raisonnable de valeurs (note,
 nombre d’enfants, nombre de pièces, ...). Dans ce cas, le caractère statistique étudié est
 alors appelé un caractère discret.
+```
 
 ```console
 Dans toute la suite du chapitre, nous considérons la situation suivante :
 ```
+
 ```js
                 X: Ω→{x 1 ,x 2 ,...,x n },
+```
+
 ```console
 avec Card(Ω) :=Nest le nombre d’individus dans notre étude.
 
@@ -387,12 +391,13 @@ On note X le nombre d’enfants, les résultats sont données par ce tableau :
 | ni(Effectif) | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
 
 
-
-_-_ Ω _ensemble des familles.
--_ ω _une famille.
--_ X _nombre d’enfants par famille_
-
+```console
+- Ω ensemble des familles.
+- ω une famille.
+- X nombre d’enfants par famille
 ```
+
+```js
                     X:ω→X(ω).
 ```
 
