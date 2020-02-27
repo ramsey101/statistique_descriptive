@@ -120,40 +120,48 @@ Symbole Signification
 ```
 ```
 [ ] La partie entière.
-Card(Ω) Le cardinal : nombre d’éléments de l’ensembleΩ.
-:= Est défini comme étant (symbole d’affectation).
 
+Card(Ω) Le cardinal : nombre d’éléments de l’ensembleΩ.
+
+:= Est défini comme étant (symbole d’affectation). 
 
 N Ensemble des nombres entiers naturels.
+
 Z Ensemble des nombres entiers relatifs.
 
-
 R Ensemble des nombres réels.
+
 R^2 Ensemble des couples de nombres réels.
+
 n
 ∑ = La somme pourivariant de 1 àn.
 i 
 
 V.S La variable statistique
+
 Me La médiane.
+
 Me+ Me par valeur supérieure.
 
 Me− Me par valeur inférieure.
+
 M 0 Le mode.
 
 x La moyenne d’une série statistiqueX.
+
 σ X L’écart-type deX.
+
 Var(X) La variance deX.
 
 Cov(X,Y) La covariance entre les variablesXetY.
+
 ρXY Le coefficient de corrélation entre les variablesXetY.
 
-
-F x La fonction s’appelle la fonction de répartition du caractèreX
+F(x) La fonction s’appelle la fonction de répartition du caractèreX
 ```
 
 
-##### 1
+
 
 ## Chapitre 1
 
@@ -186,24 +194,7 @@ le domaine des sciences humaines (sociologie, économie, anthropologie, ...). El
 dotées d’un vocabulaire particulier.
 
 
-##### 2 1.1. VOCABULAIRE
 
-```
-Epreuve statistique
-Modalités
-```
-```
-Vocabulaire
-```
-```
-Population
-```
-```
-(Variable statisitque)Caractéristiques
-```
-```
-Individu
-```
 #### 1.1.1 Épreuve statistique
 
 Les statistiques descriptives visent à étudier les caractéristiques d’un ensemble d’ob-
@@ -217,6 +208,7 @@ L’épreuve statistique est une expérience que l’on provoque.
 ```
 ```
 Exemple 1 (La durée de vie des lampes)
+
 Imaginons le cas suivant : un fabricant d’ampoules électriques ayant le choix entre
 4 types de filaments se propose d’étudier l’influence de la nature du filament sur la
 durée de vie des ampoules fabriquées. Pour ce faire, il va faire fabriquer 4 échantillons
@@ -233,7 +225,7 @@ le terme de population s’applique à tout objet statistique étudié, qu’il 
 on fait des observations statistiques. Nous définissons la notion de population.
 
 
-##### 1.1. VOCABULAIRE 3
+##### 1.1. VOCABULAIRE 
 
 ```
 Définition 2
@@ -396,139 +388,11 @@ les jeux de données au moyen de tableaux, figures ou résumés numériques. Les
 statistiques sont analysées différemment selon leur nature (quantitative, qualitative).
 
 
-##### 1.3. EXERCICES CORRIGÉS 7
-
-### 1.3 Exercices corrigés
-
-**Exercice 1**
-
-_- La variable statistique "couleur de maisons d’un quartier" est-elle :_
-
-```
-© qualitative © quantitative
-```
-```
-© discrète © continue
-```
-_La variable statistique "revenu brut" est-elle :_
-
-```
-© qualitative © quantitative
-```
-```
-© discrète © continue
-```
-_La variable statistique "nombre de maisons vendues par ville" est-elle :_
-
-```
-© qualitative © quantitative
-```
-```
-© discrète © continue
-```
-**Solution** : Pour le premier cas, la variable statistique est qualitative. Pour le deuxième cas,
-la variable statistique est quantitative continue. Pour le troisième cas, la variable statistique
-est quantitative discrète.
-
-**Exercice 2**
-
-_- Parmi ces assertions, préciser celles qui sont vraies, celles qui sont fausses._
-    _1. On appelle variable, une caractéristique que l’on étudie._
-    _2. La tâche de la statistique descriptive est de recueillir des données._
-    _3. La tâche de la statistique descriptive est de présenter les données sous forme de ta-_
-       _bleaux, de graphiques et d’indicateurs statistiques._
-    _4. En Statistique, on classe les variables selon différents types._
-    _5. Les valeurs des variables sont aussi appelées modalités._
-    _6. Pour une variable qualitative, chaque individu statistique ne peut avoir qu’une seule_
-       _modalité._
-    _7. Pour faire des traitements statistiques, il arrive qu’on transforme une variable quan-_
-       _titative en variable qualitative._
-    _8. La variable quantitative poids d’automobile peut être reclassée en compacte, intermé-_
-       _diaire et grosse._
-
-
-##### 8 1.4. EXERCICES SUPPLÉMENTAIRES
-
-_9. En pratique, lorsqu’une variable quantitative discrète prend un grand nombre de va-_
-    _leurs distinctes, on la traite comme continue._
-
-**Solution** : le corrigé en ordre est donné par
-
-1. VRAI
-2. FAUX
-3. VRAI
-4. VRAI
-5. VRAI
-6. VRAI
-7. VRAI
-8. VRAI
-9. VRAI
-
-**Exercice 3**
-
-_- Proposer des exemples de variable quantitative transformée en variable qualitative. Préciser
-les modalités de cette dernière._
-
-**Solution** : Les variables quantitatives dans le tableau ci-dessous peuvent être transfor-
-mées en variable qualitative. Les modalités de cette dernière sont précisées dans la seconde
-colonne.
-
-```
-Variable quantitative Modalités envisageables
-Hauteur Petit, Moyen, Grand
-Poids Très léger, Léger, Moyen, Lourd, Très lourd
-Rendement Faible, Moyen, Elevé
-Chiffre d’affaire Modéré, Moyen, Important, Très important
-Cylindrée Petite, Moyenne, Grosse
-```
-### 1.4 Exercices supplémentaires
-
-**Exercice 4**
-
-_- Pour chacune des variables suivantes, préciser si elle est qualitative, quantitative discrète
-ou quantitative continue,_
-
-_(a) Revenu annuel. (b) Citoyenneté.
-(c) Distance. (d) Taille._
-
-
-##### 1.4. EXERCICES SUPPLÉMENTAIRES 9
-
-_(e) Lieu de résidence. (f) Âge.
-(g) Couleur des yeux. (h) Nombre de langues parlées._
-
-**Exercice 5**
-
-_- Pour les sujets d’étude qui suivent, spécifier : l’unité statistique, la variable statistique et
-son type,_
-    _1. Étude du temps de validité des lampes électriques._
-    _2. Étude de l’absentéisme des ouvriers, en jours, dans une usine._
-    _3. Répartition des étudiants d’une promotion selon la mention obtenue sue le diplôme_
-       _du Bac._
-    _4. On cherche à modéliser_^1 _le nombre de collisions impliquant deux voitures sur un en-_
-       _semble de_ 100 _intersections routières choisies au hasard dans une ville. Les données_
-       _sont collectées sur une période d’un an et le nombre d’accidents pour chaque intersec-_
-       _tion est ainsi mesuré._
-
-**Exercice 6**
-
-_- Quelles formes de présentation de données correspondent ces propriétés?_
-    _1. Il donne une bonne idée des données, mais on lui préfère en général les graphiques._
-    _2. Il n’est pas nécessaire de lire des nombres. D’un simple coup d’œil, on a une vision_
-       _d’ensemble des données._
-1. Fabriquer un modèle à partir des informations disponibles, généralement dans un but précis comme
-mieux appréhender un projet de construction ou se rendre compte de l’ampleur d’un sujet à partir d’une
-échelle réduite.
-
-
-
-##### 11
-
 ## Chapitre 2
 
-# Étude d’une variable statistique
+# Étude d’une variable statistique discrète
 
-# discrète
+
 
 Le caractère statistique peut prendre un nombre fini raisonnable de valeurs (note,
 nombre d’enfants, nombre de pièces, ...). Dans ce cas, le caractère statistique étudié est
@@ -551,6 +415,7 @@ Une enquête réalisée dans un village porte sur le nombre d’enfants à charg
 On note X le nombre d’enfants, les résultats sont données par ce tableau :
 ```
 ```
+| xi | 0 | 1 | 2 | 3 | 4 | 5 | 6 | |----------|:-------------:|------:| | ni(Effectif) | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
 x i 0 1 2 3 4 5 6
 ```
 ```
