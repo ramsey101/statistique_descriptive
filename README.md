@@ -228,8 +228,12 @@ différentes valeurs.
 
 ```console
 On appelle caractère (ou variable statistique, dénotée V.S) toute application
-                       X: Ω→C.
+``` 
+```js
+                         X: Ω→C.
+```
 
+```console
 L’ensemble C est dit : ensemble des valeurs du caractère X (c’est ce qui est mesuré ou
 observé sur les individus)
 ```
