@@ -459,8 +459,8 @@ Exemple 9
 Dans l’exemple précédent, 66 est le nombre de familles qui ont 2 enfants.
 ```
 
-| x | i | ··· | 2 | ··· |
-|---|---|-----|---|-----|
+| xi |··· | 2 | ··· |
+|----|----|---|-----|
 | n i(Effectif)| ··· | 66 | ··· |
 
 
@@ -536,7 +536,7 @@ Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d�
 | xi | ··· | 2 | ··· |
 |----| --- |---| --- |
 | ni(Effectif)| ··· | 66 |
-|-------------|-----|----|
+
 | Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
 
 
