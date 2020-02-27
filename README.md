@@ -349,10 +349,10 @@ Exemple 6
 L’état d’une maison : on peut considérer les modalités suivantes
 ```
 
-_- Ancienne.
-_- Dégradée.
-_- Nouvelle.
-_- Rénovée._
+_ Ancienne.
+_ Dégradée.
+_ Nouvelle.
+_ Rénovée.
 
 
 
@@ -664,7 +664,7 @@ de répartition. Cette notion ne concerne que les variables quantitatives.
 
 
 
-```
+```console
 Soit la fonctionF x :R→[0,1]définie par 
 F x (x) :=pourcentage des individus dont la valeur du caractère est≤x. 
 Cette fonction s’appelle la fonction de répartition du caractèreX.
@@ -675,7 +675,7 @@ Pour tout i∈{ 1 ,...,n} , on a
 F x (x i ) =F i.
 La courbe de F xpasse par les points (x 1 ,F 1 ) , (x 2 ,F 2 ),... et (x n ,F n ).
 
-```
+```console
 En se basant sur notre exemple, la courbe deF _x_ est représentée ci-dessous (Figure 2.6)
 sur
                R=]−∞,0[∪[0,1[∪.... ∪ [6,+∞[.
@@ -756,46 +756,28 @@ La médiane partage la série statistique en deux groupes de même effectif.
 
 **La moyenne**
 
-```
+```console
 On appelle moyenne deX, la quantité
 
-i=1
+             _        n         n
+             x= 1/N * ∑ nixi= ∑ fixi, 
+                     i =1      i=1  
 
-fixi
-
-,
-```
-```
-x=^1
-N
-```
-```
-∑ n
-i =1
-```
-```
-n i x i =
-```
-```
-∑ n
-i =1
-```
-```
-f i x i ,
-```
 avecN=Card(Ω). On peut donc exprimer et calculer la moyenne dite "arithmétique" avec
 des effectifs ou avec des fréquences.
 
 ```
-Exemple 15
+**Exemple 15**
+```console
+   _
 Si x= 2. 46 , alors nous avons au moyenne une famille de quartier a 2. 46 d’enfants.
 ```
+
 La valeur de la moyenne est abstraite. Comme dans l’exemple précédent,x= 2. 46 est
 un chiffre qui ne correspond pas à un fait concret.
 
 
-##### 22 2.5. PARAMÈTRES DE DISPERSION (VARIABILITÉ)
-
+```console
 La moyenne arithmétique dont on vient d’indiquer la formule est dite moyenne pon-
 dérée ; cela signifie que chaque valeur de la variable est multipliée (pondérée) par un coef-
 ficient, ici par l’effectifn _i_ qui lui correspond. Dans ce cas, chaque valeurx _i_ de la variable
@@ -805,9 +787,11 @@ moyenne arithmétique simple quand on n’effectue pas de pondération. Par exem
 (18 + 19 + 20 + 21 + 22)/5 = 20ans.
 
 ```
-Remarque 6
+
+**Remarque 6**
+
 Nous mentionnons qu’il existe d’autres moyennes que la moyenne arithmétique
-```
+
 ### 2.5 Paramètres de dispersion (variabilité)
 
 Les indicateurs statistiques de dispersion usuels sont l’étendue, la variance et l’écart-
@@ -817,7 +801,9 @@ type.
 
 La différence entre la plus grande valeur et la plus petite valeur du caractère, donnée
 par la quantité
-e=xmax−xmin,
+```console
+                       e=xmax−xmin,
+```                       
 
 s’appelle l’étendue de la V.S X. Le calcul de l’étendue est très simple. Il donne une première
 idée de la dispersion des observations. C’est un indicateur très rudimentaire et il existe des
@@ -825,218 +811,57 @@ indicateurs de dispersion plus élaborés (voir ci-dessous).
 
 **La variance**
 
-```
+```console
 On appelle variance de cette série statistiqueX, le nombre
+          n      _
+V ar(X) = ∑ f i (x − xi )^2 
+         i=1
 ```
-```
-V ar(X) =
-```
-```
-∑ n
-i =1
-```
-```
-f i (x−x i )^2
 ```
 On dit que la variance est la moyenne des carrés des écarts à la moyennex. Les « écarts à
-la moyenne » sont les(x−x _i_ ), les « carrés des écarts à la moyenne » sont donc les(x−x _i_ )^2.
+la moyenne » sont les(x(bar) − xi), les « carrés des écarts à la moyenne » sont donc les(x(bar) − xi )^2.
 En faisant la moyenne de ces écarts, on trouve la variance.
-
-Le théorème suivant (Théorème de König-Huygens) donne une identité remarquable re-
-liant la variance et la moyenne, parfois plus pratique dans le calcule de la variance.
-
-
-##### 2.5. PARAMÈTRES DE DISPERSION (VARIABILITÉ) 23
-
 ```
-Théorème 1
+Le théorème suivant (Théorème de König-Huygens) donne une identité remarquable reliant
+la variance et la moyenne, parfois plus pratique dans le calcule de la variance.
+
+
+**Théorème 1*, 
+```js
+
 Soit (x i ,n i ) une série statistique de moyenne x et de variance V ar(X). Alors,
-```
-```
-V ar(X) =
-```
-```
-∑ n
-i =1
-```
-```
-f i x^2 i −x^2.
-```
-_Démonstration._ Par définition, nous avons
+ 
+                          n      _
+                V ar(X) = ∑ f i (x − xi )^2 
+                         i=1
 
 ```
-V ar(X) =
-```
-```
-∑ n
-i =1
-```
-```
-f i (x−x i )^2 =^1
-N
-```
-```
-∑ n
-i =1
-```
-```
-n i (x−x i )^2 =
-```
-```
-∑ n
-i =1
-```
-```
-n i (x−x i )^2
-∑ n
-i =1
-```
-```
-n i
-```
-##### .
+**Remarque 7**
 
-Donc,
-
-```
-V ar(X) =
-```
-```
-∑ n
-i =1
-```
-```
-n i (x−x i )^2
-∑ n
-i =1
-```
-```
-n i
-```
-##### =
-
-```
-∑ n
-i =1
-```
-```
-n i (x^2 +x^2 i − 2 xx i )
-∑ n
-i =1
-```
-```
-n i
-```
-##### .
-
-Par égalité, nous avons
-
-```
-V ar(X) =
-```
-```
-∑ n
-i =1
-```
-```
-n i x^2
-∑ n
-i =1
-```
-```
-n i
-```
-##### +
-
-```
-∑ n
-i =1
-```
-```
-n i x^2 i
-∑ n
-i =1
-```
-```
-n i
-```
-##### −
-
-```
-∑ n
-i =1
-```
-```
-2 n i xx i
-∑ n
-i =1
-```
-```
-n i
-```
-##### .
-
-Ce qui implique que
-
-```
-V ar(X) =x^2 +
-```
-```
-∑ n
-i =1
-```
-```
-n i x^2 i
-∑ n
-i =1
-```
-```
-n i
-```
-```
-− 2 xx=−x^2 +
-```
-##### 1
-
-##### N
-
-```
-∑ n
-i =1
-```
-```
-n i x^2 i.
-```
-```
-Remarque 7
 Dans l’utilisation de la formule du théorème précédent, il faut veiller à remplacer x par
 sa valeur approchée la plus précise possible.
-```
 
-##### 24 2.6. EXERCICES CORRIGÉS
+
+
 
 **L’écart type**
 
-```
-La quantité
-σ X =
-```
-```
-√
-V ar(x)
-```
+```console
+La quantité:
+          σ X = √V ar(x)
 s’appelle l’écart type de la V.SX.
-
 ```
-Remarque 8
+
+**Remarque 8**
+
 Le paramètre σ xmesure la distance moyenne entre x et les valeurs de X (voir Figure
 2.7). Il sert à mesurer la dispersion d’une série statistique autour de sa moyenne.
-```
+
 _- Plus il est petit, plus les caractères sont concentrés autour de la moyenne (on_
     _dit que la série est homogène).
 - Plus il est grand, plus les caractères sont dispersés autour de la moyenne (on_
     _dit que la série est hétérogène)._
-
+# image figure 2.7
 ```
 Figure2.7:La dispersion d’une série statistique autour de sa moyenne
 ```
