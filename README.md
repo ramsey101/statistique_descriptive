@@ -535,8 +535,7 @@ Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d�
 
 | xi | ··· | 2 | ··· |
 |----| --- |---| --- |
-| ni(Effectif)| ··· | 66 |
-
+| ni(Effectif)| ··· | 66 | 
 | Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
 
 
