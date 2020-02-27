@@ -1135,11 +1135,11 @@ _Remarque 12_
 ```console
 Nous avons, comme dans le chapitre précédent, les interprétations suivantes :
 ```
-_-_ n _i_ : _est le nombre d’individus dont les valeurs des caractères sont dans la classe_
+- n _i_ : _est le nombre d’individus dont les valeurs des caractères sont dans la classe_
     C _i,
--_ f _i_ : _est le pourcentage des_ w _tel que_ X(w)∈C _i,
--_ N _i_ : _est égale au Card_ {w: X(w)∈C 1 ∪C 2 ∪...∪C _i_ } _,
--_ F _i_ : _est le pourcentage des w tel que_
+- f _i_ : _est le pourcentage des_ w _tel que_ X(w)∈C _i,
+- N _i_ : _est égale au Card_ {w: X(w)∈C 1 ∪C 2 ∪...∪C _i_ } _,
+- F _i_ : _est le pourcentage des w tel que_
 
 ```js
                       X(w)∈C 1 ∪...∪C i.
@@ -1148,13 +1148,15 @@ _-_ n _i_ : _est le nombre d’individus dont les valeurs des caractères sont d
 
 #### 3.2.1 Histogramme des fréquences (ou effectifs)
 
+```console
 Nous pouvons représenter le tableau statistique par un histogramme. Nous reportons
 les classes sur l’axe des abscisses et, au-dessus de chacune d’elles, nous traçons un rectangle
 dont l’aire est proportionnelle à la fréquencef _i_ (ou l’effectifn _i_ ) associée. Ce graphique est
 appelé l’histogramme des fréquences (voir Figure 3.3).
 
-
+```
 # image figure 3.3
+
 ```
 Figure3.3:Histogramme des fréquences ou des éffctifs.
 ```
