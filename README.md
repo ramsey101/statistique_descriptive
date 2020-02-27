@@ -8,6 +8,7 @@
 
 ### Préambule
 
+```js
 Le cours a pour but d’initier les étudiants aux principes de base de la statistique.
 Le cours vise principalement à introduire et faire méditer les concepts fondamentaux et
 méthodes élémentaires de la statistique pour permettre un apprentissage autonome ultérieur
@@ -21,9 +22,11 @@ une meilleure compréhension du cours.
 La statistique descriptive a pour but d’étudier un phénomène à partir de données. Cette
 description se fait à travers la présentation des données (la plus synthétique possible), leur
 représentation graphique et le calcul de résumés numériques.
+```
 
+```console
 La place de ce cours dans le future métier des étudiants :
-
+```
 - Analyse des données (outils scientifiques permettant de résumer un ensemble de
     données afin de mettre en évidence l’information).
 - Simulations (processus stochastique - variable temporelle)
@@ -34,10 +37,10 @@ La place de ce cours dans le future métier des étudiants :
 
 **Symboles et Notations**
 
-```
-Symbole Signification
-```
-```
+
+******Symbole Signification*******
+
+```js
 [ ] La partie entière.
 
 Card(Ω) Le cardinal : nombre d’éléments de l’ensembleΩ.
