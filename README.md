@@ -511,10 +511,7 @@ Pour chaque valeur x i, on pose par définition
                    f i :=n i/N
 
 ```
-##### .
 
-
-##### 14 2.2. FRÉQUENCE PARTIELLE - FRÉQUENCE CUMULÉE
 
 ```
 f is’appelle la fréquence partielle de x i. La fréquence d’une valeur est le rapport de
@@ -524,9 +521,9 @@ l’effectif de cette valeur par l’effectif total.
 Remarque 3
 On peut remplacer f ipar f i × 100 qui représente alors un pourcentage.
 ```
-```
-Interprétation : f i =est le pourcentage desωtel queX(ω) =x i.
-```
+
+**Interprétation**: f i = est le pourcentage desωtel queX(ω) =x i.*
+
 ```
 Exemple 11
 Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d’enfants égale
@@ -536,73 +533,34 @@ Dans l’exemple précédent, 0 ,33 := il y a 33 % de familles dont le nombre d�
 
 | xi | ··· | 2 | ··· |
 |----| --- |---| --- |
-| ni(Effectif)| ··· | 66 |---|
+| ni(Effectif)| ··· | 66 |···|
 | Ni(Effectif)| ··· | 200/66 = 0. 33 | ··· |
 
 
 Nous pouvons conclure la propriété suivante.
-```
+
 ```
 Proposition 1
 Soit f idéfini comme précédemment. Alors,
-```
-```
-∑ n
-i =1
-```
-```
-f i = 1.
-```
-_Démonstration._ Rappelons que _n_
-∑
-_i_ =1
+
+                   n
+                   ∑ fi = 1
+                   i =1
+
 
 ```
-n i =N.
-```
-Ce qui implique que
 
-```
-∑ n
-i =1
-```
-```
-f i =
-```
-```
-∑ n
-i =1
-```
-```
-n i
-N =
-```
-##### 1
-
-##### N
-
-```
-∑ n
-i =1
-```
-```
-n i = 1.
-```
-
-##### 2.2. FRÉQUENCE PARTIELLE - FRÉQUENCE CUMULÉE 15
 
 #### 2.2.2 Fréquence cumulée
 
 ```
 Définition 10
 Pour chaque valeur x i, on pose par définition
-```
-```
-F i =f 1 +f 2 +...+f i.
-```
-```
+
+                    F i =f 1 +f 2 +...+f i. 
 La quantité F is’appelle la fréquence cumulée de x i.
 ```
+
 **Interprétation** : F _i_ =est le pourcentage desωtel que la valeurX(ω)est inférieure
 ou égale àx _i_.
 
@@ -611,39 +569,9 @@ Exemple 12
 ```
 _- Dans l’exemple précédent,_ 0. 785 _représente_ 78 .5% _de familles dont le nombre d’en-
 fants est inférieur ou égale à_ 3_.
-- Dans un deuxième exemple, nous nous intéressons aux nombres d’erreurs d’assem-
-blage sur un ensemble d’appareils,_
-
-```
-Nombre d’erreurs Nombre d’appareils Fréquences cumulées
-```
-```
-0 101 0.26
-```
-```
-1 140 0.61
-```
-```
-2 92 0.84
-```
-```
-3 42 0.94
-4 18 0.99
-```
-```
-5 3 1
-```
-```
-Nous avons 94% des appareils qui ont un nombre d’erreurs d’assemblage inférieur ou
-égale à 3.
-```
-Nous avons vu que les tableaux sont un moyen souvent indispensable, en tous cas très
-utile, de classification et de présentation des unités d’une population statistique. Dans le pa-
-ragraphe suivant, nous allons voir comment on traduit ses tableaux en graphique permettant
-aussi de résumer d’une manière visuelle les données.
 
 
-##### 16 2.3. REPRÉSENTATION GRAPHIQUE DES SÉRIES STATISTIQUES
+
 
 ### 2.3 Représentation graphique des séries statistiques
 
@@ -656,9 +584,10 @@ Le graphique est un support visuel qui permet :
 ```
 **La synthèse** : visualiser d’un seul coup d’œil les principales caractéristiques (mais on
 perd une quantité d’informations), voir Figure 2.2.
-
+# image figure 2.2
 ```
 Figure2.2:Quelques caractéristiques du graphique
+
 ```
 **La découverte** : met en évidence les tendances.
 **Le contrôle** : on aperçoit mieux les anomalies sur un graphique que dans un tableau.
@@ -672,13 +601,13 @@ représenter cette variable : le diagramme en bandes (dit tuyaux d’orgue) et l
 à secteurs angulaires (dit camembert).
 
 
-##### 2.3. REPRÉSENTATION GRAPHIQUE DES SÉRIES STATISTIQUES 17
 
 **Tuyaux d’orgues**
 
 Nous portons en abscisses les modalités, de façon arbitraire. Nous portons en ordonnées
 des rectangles dont la longueur est proportionnelle aux effectifs, ou aux fréquences, de chaque
 modalité (voir Figure 2.3).
+# image figure 2.3
 
 ```
 Figure2.3:Tuyaux d’orgues
@@ -688,23 +617,19 @@ Figure2.3:Tuyaux d’orgues
 Les diagrammes circulaires, ou semi-circulaires, consistent à partager un disque ou un
 demi-disque, en tranches, ou secteurs, correspondant aux modalités observées et dont la
 surface est proportionnelle à l’effectif, ou à la fréquence, de la modalité (voir Figure 2.4).
-
+# image figure 2.4
 ```
 Figure2.4:Diagramme par secteur
 ```
 Le degré d’un secteur est déterminé à l’aide de la règle de trois de la manière suivante :
 
-##### N−→ 360 ◦
-
 ```
-n i −→ d i (degréde la modalitéi).
+                N−→ 360 ◦ 
+                n i −→ d i (degréde la modalitéi).
+                Donc, d i = (n i * 360)/N 
 ```
 
-##### 18 2.3. REPRÉSENTATION GRAPHIQUE DES SÉRIES STATISTIQUES
 
-Donc,
-d _i_ =n _i_ ×^360
-N
 
 #### 2.3.2 Distribution à caractère quantitatif discret
 
@@ -716,8 +641,10 @@ Pour l’illustration, nous prenons l’exemple précédent de départ (nombre d
 famille). Nous rappelons le tableau statistique associe.
 
 ```
-x i 0 1 2 3 4 5 6
-n i 18 32 66 41 32 9 2
+
+| x i | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+|-----|---|---|---|---|---|---|---|
+| n i | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
 ```
 **Diagramme à bâtons**
 
