@@ -414,19 +414,19 @@ Exemple 8
 Une enquête réalisée dans un village porte sur le nombre d’enfants à charge par famille.
 On note X le nombre d’enfants, les résultats sont données par ce tableau :
 ```
-```
+
 | xi | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 
 |----|---|---|---|---|---|---|---|
 | ni(Effectif) | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
+
+
 ```
-
-
 _-_ Ω _ensemble des familles.
 -_ ω _une famille.
 -_ X _nombre d’enfants par famille_
 
-```
-X:ω→X(ω).
+
+                    X:ω→X(ω).
 ```
 
 ##### 12 2.1. EFFECTIF PARTIEL - EFFECTIF CUMULÉ
