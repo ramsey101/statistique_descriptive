@@ -976,7 +976,7 @@ Si on prend N= 30 , alors le nombre de classes est donné, par exemple, par
 ```
 
 _- soit la formule de Sturge_ k= 1 + 3.3 log 10 (30) ~= 6 _,
-- soit la formule de Yule_ k= 2. 54(racine quatrième √30) ~= 6
+_- soit la formule de Yule_ k= 2. 54(racine quatrième √30) ~= 6
 
 Nous mentionnons que les deux formules sont presque pareils si N << 200.
 
@@ -1008,59 +1008,42 @@ s’appelle effectif partiel de C i.
 ```
 # image figure 3.2
 
-### ni
 
-```
-Li+1
-```
-### w
-
-```
-Li
-```
 ```
 Figure3.2:Le nombre d’individus qui prennent des valeursx i dansC i.
-```
-```
-Définition 15
+``` 
+
+**Définition 15**
+
+```js
 Le nombre
-f i :=n i
-N
+              fi :=ni/N
+
 est appelé la fréquence partielle de C i.
 ```
 
-##### 3.2. REPRÉSENTATION GRAPHIQUE D’UN CARACTÈRE CONTINU 37
+**Définition 16**
+
+```js
+On appelle l’effectif cumulé de C ila quantité
+                        i
+                 N i := ∑ nj. 
+                       j=1
+```
+
+**Définition 17**
+
+```js
+On appelle la fréquence cumulée de C ila quantité
+
+                        i
+                 F i := ∑ fj
+                       j =1
+```
+
+**Remarque 12**
 
 ```
-Définition 16
-On appelle l’effectif cumulé de C ila quantité
-```
-```
-N i :=
-```
-```
-∑ i
-j =1
-```
-```
-n j.
-```
-```
-Définition 17
-On appelle la fréquence cumulée de C ila quantité
-```
-```
-F i :=
-```
-```
-∑ i
-j =1
-```
-```
-f j.
-```
-```
-Remarque 12
 Nous avons, comme dans le chapitre précédent, les interprétations suivantes :
 ```
 _-_ n _i_ : _est le nombre d’individus dont les valeurs des caractères sont dans la classe_
@@ -1069,8 +1052,8 @@ _-_ n _i_ : _est le nombre d’individus dont les valeurs des caractères sont d
 -_ N _i_ : _est égale au Card_ {w: X(w)∈C 1 ∪C 2 ∪...∪C _i_ } _,
 -_ F _i_ : _est le pourcentage des w tel que_
 
-```
-X(w)∈C 1 ∪...∪C i.
+```js
+                      X(w)∈C 1 ∪...∪C i.
 ```
 ### 3.2 Représentation graphique d’un caractère continu
 
@@ -1082,490 +1065,21 @@ dont l’aire est proportionnelle à la fréquencef _i_ (ou l’effectifn _i_ ) 
 appelé l’histogramme des fréquences (voir Figure 3.3).
 
 
-##### 38 3.2. REPRÉSENTATION GRAPHIQUE D’UN CARACTÈRE CONTINU
-
+# image figure 3.3
 ```
 Figure3.3:Histogramme des fréquences ou des éffctifs.
 ```
-#### 3.2.2 Fonction de répartition
+ 
 
-**Notation** : Nous allons noter par
 
-```
-C i = [xmin=a 0 ,xmin+1=a 1 [.
-```
-```
-Définition 18
-La fonction F x :R→[0,1] définie par F x (x) représente le pourcentage des individus
-tel que la valeur de leur caractère est inférieure ou égale à x. Elle est donnée par
-```
-```
-F x (x) =
-```
-```
-
-
-
-
-
-
-
-
-
-```
-```
-0 , si x < a 0 ,
-f 1
-h(x−a^0 ), si a^0 ≤x < a^1 ,
-F i +f i +1
-h
-(x−a i ), si a i ≤x < a i +1,
-```
-```
-1 , si x≥a n ,
-```
-```
-et elle s’appelle la fonction de répartition de X.
-```
-```
-Nous expliquons cette formulation de la fonction de répartition dans cette remarque.
-```
-```
-Remarque 13
-Nous calculons F x (x) par extrapolation (voir Figure 3.4). Nous avons déjà F(L i ) =F i.
-De plus,
-tan(α) =F(L i +1)−F(L i )
-L i +1−L i
-=F(x)−F(L i )
-x−L i
-```
-##### .
+ 
 
+  
 
-##### 3.3. PARAMÈTRES DE TENDANCE CENTRAL 39
 
-```
-Ce qui implique la formule de la fonction de répartition
-```
-```
-F(x) =
-f i +1
-h (x−L i ) +F i.
-```
-```
-Figure3.4:Le calcul deF x (x)par extrapolation.
-```
-La courbe deF _x_ est nulle avanta 0 , constante égale à 1 aprèsa _n_ et joint les points(a 0 ,0),
-(a 1 ,F 1 ),...,(a _n_ ,1)par des segments de droites (voir Figure 3.5).
 
-```
-Figure3.5:La courbe des fréquences cumulées.
-```
-### 3.3 Paramètres de tendance central
 
-On note parC _i_ le centre de la classeC _i_ et nous considéronsf _i_ la fréquence partielle
-deC _i_.
 
-
-##### 40 3.3. PARAMÈTRES DE TENDANCE CENTRAL
-
-```
-Figure3.6:Le centre de la classe.
-```
-**La moyenne**
-
-```
-Définition 19
-La quantité
-x=
-```
-```
-∑ n
-i =1
-```
-```
-f i C i
-```
-```
-s’appelle la moyenne de X.
-```
-**Le mode**
-
-La définition suivante permet de comprendre la démarche à suivre pour calculer le mode
-d’une manière exacte et qui se trouve dans une des classes appelée "classe modale".
-
-```
-Définition 20
-Nous définissions la classe modale comme étant la classe des valeurs de X qui a le plus
-grand effectif partiel (ou la plus grande fréquence partielle). La quantité
-```
-```
-M 0 =L i +
-```
-##### ∆ 1
-
-```
-∆ 1 + ∆ 2 a i
-s’appelle le mode avec (voir Figure 3.7)
-```
-_-_ L _i: la borne inférieure de la classe modale.
--_ a _i: le pas de la classe modale.
--_ ∆ 1 =n 0 −n 1 _,_ ∆ 2 =n 0 −n 2 _ou bien_ ∆ 1 =f 0 −f 1 _,_ ∆ 2 =f 0 −f 2_.
--_ n 0 _et_ f 0 _sont l’effectif et la fréquence associés à la classe modale.
--_ n 1 _et_ f 1 _sont l’effectif et la fréquence de la classe qui précède la classe modale.
--_ n 2 _et_ f 2 _sont l’effectif et la fréquence de la classe qui suit la classe modale._
-
-
-##### 3.3. PARAMÈTRES DE TENDANCE CENTRAL 41
-
-```
-Classe modale n 0 ou f 0
-```
-_M_ (^0) _Ci
-Δ 1 Δ_^2
-Figure3.7:Représentation ou détermination graphique du mode (cas continu).
-**Remarque 14**
-_L’expression du mode donnée ci-dessus est déterminée à partir de l’intersection des
-deux segments représentés dans la Figure 3.7. Cette notion n’est pas unique._
-**La médiane
-Définition 21**
-_C’est la valeur_ Me _telle que_ F(Me) = 0. 5_. Cette valeur est unique._
-Noue pouvons la déterminer graphiquement ou par calcule.
-
-1. **Première méthode** : Graphiquement à partir de la formule
-
-```
-tan(α) =
-F(L i +1)−F(L i )
-L i +1−L i =
-```
-```
-0. 5 −F(L i )
-Me−L i.
-```
-```
-Plus précisément, dans la figure 3.8, nous mettonsF(x) = 0. 5 etx=Me.
-```
-2. **Deuxième méthode** : En utilisant directement la fonction de répartition donnée par
-
-```
-F(x) =f i +1
-h
-(x−L i ) +F i.
-```
-```
-Nous retrouvons donc
-```
-```
-0 .5 =f i +1
-h
-(Me−L i ) +F i.
-```
-
-##### 42 3.4. PARAMÈTRES DE DISPERSION
-
-```
-Figure3.8:Le calcul de la médiane par extrapolation.
-```
-### 3.4 Paramètres de dispersion
-
-```
-Définition 22
-La variance est la quantité
-```
-```
-V ar(x) =
-```
-```
-∑ n
-i =1
-```
-```
-f i (x−C i )^2.
-```
-```
-Remarque 15
-Pour le calcul, on utilise (voir Chapitre 2, Théorème 1)
-```
-```
-V ar(x) =
-```
-```
-∑ n
-i =1
-```
-```
-f i C i^2 −x^2.
-```
-```
-Définition 23
-La quantité
-σ X =
-```
-```
-√
-V ar(x)
-s’appelle l’écart type de la V.S X.
-```
-```
-Nous généralisons la notion de la médiane dans la définition suivante.
-```
-```
-Définition 24
-Pour i∈{ 1 , 2 , 3 } , la quantité Q itel que F(Q i ) = 4 i s’appelle le i emquartile.
-```
-
-##### 3.5. EXERCICES CORRIGÉS 43
-
-```
-Exemple 19
-Pour i= 2 , Q 2 tel que F(Q 2 ) =^24 = 0. 5. Donc, Q 2 =Me.
-```
-La détermination ou le calcul deQ _i_ se fait exactement comme le calcul de la médiane
-(graphiquement ou analytiquement).
-
-**Interprétation** : Il y a 25 % d’individus dont la valeur du caractère est dans l’in-
-tervalle[a 0 ,Q 1 ]. De même pour les autres quartiles. Ces intervalles s’appellent "intervalles
-interquartiles".
-
-##### Q 1 −→25%,
-
-##### Q 2 −→50%,
-
-##### Q 3 −→75%.
-
-```
-xmin Q 1 Me=Q 2 Q 3 xmax
-```
-##### 25%
-
-##### 75%
-
-##### 50%
-
-##### 25%
-
-```
-Figure3.9:Les quartiles.
-```
-### 3.5 Exercices corrigés
-
-**Exercice 16**
-
-_- Classer ces statistiques selon leurs natures (indicateur de position ou de dispersion)_
-
-```
-Minimum Moyenne Écart-type Mode Médiane Premier quartile
-Position
-Dispersion
-```
-
-##### 44 3.5. EXERCICES CORRIGÉS
-
-**Solution** Les natures des statistiques sont classées dans ce tableau,
-
-```
-Position Minimum, Moyenne, Médiane, Mode, Premier quartile
-Dispersion Écart-type
-```
-**Exercice 17**
-
-_- Chez un fabriquant de tubes de plastiques, on a prélevé un échantillon de 100 tubes dont
-on a mesuré le diamètre en décimètre._
-
-##### 1.94 2.20 2.33 2.39 2.45 2.50 2.54 2.61 2.66 2.85
-
-##### 1.96 2.21 2.33 2.40 2.46 2.51 2.54 2.62 2.68 2.87
-
-##### 2.07 2.26 2.34 2.40 2.47 2.52 2.55 2.62 2.68 2.90
-
-##### 2.09 2.26 2.34 2.40 2.47 2.52 2.55 2.62 2.68 2.91
-
-##### 2.09 2.28 2.35 2.40 2.48 2.52 2.56 2.62 2.71 2.94
-
-##### 2.12 2.29 2.36 2.41 2.49 2.52 2.56 2.63 2.73 2.95
-
-##### 2.13 2.30 2.37 2.42 2.49 2.53 2.57 2.63 2.75 2.99
-
-##### 2.14 2.31 2.38 2.42 2.49 2.53 2.57 2.65 2.76 2.99
-
-##### 2.19 2.31 2.38 2.42 2.49 2.53 2.59 2.66 2.77 3.09
-
-##### 2.19 2.31 2.38 2.42 2.50 2.54 2.59 2.66 2.78 3.12
-
-_1. Identifier la population, les individus, le caractère et son type.
-2. En utilisant la méthode de Yule puis de Sturge, établir le tableau statistique (Faites_
-    _débuter la première classe par la valeur 1.94).
-3. Tracer l’histogramme de cette variable statistique.
-4. Déterminer par le calcul la valeur du diamètre au-dessous de laquelle se trouvent 50%_
-    _des tubes de plastique. Que reprèsente cette valeur.
-5. Déterminer par le calcul le pourcentage de tubes ayant un diamètre inférieur à 2.58._
-
-**Solution** 1 - Identification de cet épreuve statistique,
-
-- Population : les tubes.
-
-
-##### 3.5. EXERCICES CORRIGÉS 45
-
-- Individus : le tube.
-- Caractère : le diamètre.
-- Type : quantitative continue.
-- Modalités : 1.94,..., 3.12.
-
-2 - Par la méthode de Yule, nous avons
-
-```
-k= 2. 54
-```
-##### √
-
-##### N= 2. 54
-
-##### √
-
-##### 100 = 7. 9 ' 8.
-
-Par la méthode de Sturge, nous avons
-
-```
-k= 1 + 3.3 log 10 (N) = 1 + 3.3 log 10 (100) = 7. 6 ' 8.
-```
-Nous avons donc l’amplitude qui égale
-
-```
-a i =xmax−xmin
-k
-```
-##### ' 0. 15.
-
-Nous obtenons le tableau statistique suivant,
-
-```
-X n i f i N i F i
-```
-```
-[1. 94 , 2 .09[ 3 0.03 3 0.03
-```
-```
-[2. 09 , 2 .24[ 9 0.09 12 0.012
-```
-```
-[2. 24 , 2 .39[ 18 0.18 30 0.3
-[2. 39 , 2 .54[ 29 0.29 59 0.59
-```
-```
-[2. 54 , 2 .69[ 25 0.25 84 0.84
-```
-```
-[2. 69 , 2 .84[ 6 0.06 90 0.90
-```
-```
-[2. 84 , 2 .99[ 6 0.06 96 0.96
-[2. 99 , 3 .14[ 4 0.04 100 1
-∑ 100 1 \ \
-```
-3 - Nous dessinons l’histogramme de cette variable,
-
-
-##### 46 3.5. EXERCICES CORRIGÉS
-
-(^0) 1.94 2.09 2.24 2.39 2.54 2.69 2.84 2.99 3.14
-Les effeectifs (ni)
-Histogramme des effectifs
-Les classes (Ci)
-5
-10
-15
-20
-25
-30
-4 - Cette valeur représente la médiane. Le calcule se fait par extrapolation
-tan(α) = 20 .. 5459 −− 20 .. 393 =Me^0.^5 −− 20 .. 393.
-Nous trouvonsMe= 2. 5.
-5 - Le calcule du pourcentage de tubes ayant un diamètre inférieur à 2.58 se fait de la même
-manière et nous avons
-tan(α) =
-
-##### 0. 84 − 0. 59
-
-##### 2. 69 − 2. 54 =
-
-```
-x− 0. 59
-2. 58 − 2. 54.
-```
-Nous trouvons que la valeur cherché est égale à 0. 66 (66%).
-
-**Exercice 18**
-
-_- Une étude sur le budget consacré aux vacances d’été auprès de ménages a donné les
-résultats suivants_
-
-```
-BudgetX Fréquence cumulée Fréquences
-[800,1000[ 0.08
-[1000,1400[ 0.18
-[1400,1600[ 0.34
-[1600,β[ 0.64
-[β,2400[ 0.73
-[2400,α[ 1
-```
-
-##### 3.5. EXERCICES CORRIGÉS 47
-
-_Le travail demandé :_
-
-_- Certaines données sont manquantes. Calculer la borne manquante_ α _sachant que_
-    _l’étendue de la série est égale à_ 3200_.
-- Calculer les fréquences dans le tableau.
-- Calculer la borne manquante_ β _dans les deux cas suivants :_
-    _1. Le budget moyen est égal à_ 1995_._
-    _2. Le budget médian est égal à_ 1920_._
-
-**Solution** - On sait que l’étendue est égale au maximum moins le minimum. Ainsi,
-
-```
-3200 =xmax−xmin=α− 800 ,
-```
-et doncα= 4000.
-
-- Nous complétons le tableau comme suit
-
-```
-BudgetX Fréquence cumulée Fréquences
-[800,1000[ 0.08 0.08
-[1000,1400[ 0.18 0.1
-[1400,1600[ 0.34 0.16
-[1600,β[ 0.64 0.3
-[β,2400[ 0.73 0.09
-[2400,α[ 1 0.27
-```
-- Le calcul la borne manquanteβdans le cas où le budget moyen est égal à 1995 , c’est à
-dire,x= 1995se fait comme suit
-
-x= 1995 = 0. 08 ×900+0. 1 ×1200+0. 16 ×1500+0. 3 ×1600 + 2 β+0. 09 ×β+ 2400 2 +0. 27 × 3200.
-
-Ce qui implique que
-1644 + 0. 195 ×β= 1995,
-
-et on trouveβ= 1800.
-
-- Le calcule la borne manquanteβdans le cas où le budget médian est égal à 1920 , c’est
-à dire,Me= 1920se fait comme suit : il faut raisonner par interpolation linéaire sur
-
-
-##### 48 3.6. EXERCICES SUPPLÉMENTAIRES
-
-l’intervalle[1600−β[. On pose le rapport des distances suivant,
-
-```
-1920 − 1600
-β− 1600
-```
-##### =^0.^5 −^0.^34
-
-##### 0. 64 − 0. 34
 
 ##### ,
 
