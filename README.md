@@ -416,7 +416,7 @@ la valeur du caractère avecivarie de 1 àk.
 #### 2.1.1 Effectif partiel (fréquence absolue)
 
 
-**Définition 7 **
+**Définition 7**
 
 ```js
 Pour chaque valeur x i, on pose par définition
@@ -430,8 +430,10 @@ n i: le nombre d’individus qui ont le même x i, ça s’appelle effectif part
 ```
 Figure2.1:Le nombre d’individus qui prennent la valeurx i.
 ```
-```
-Exemple 9
+
+- Exemple 9
+
+```js
 Dans l’exemple précédent, 66 est le nombre de familles qui ont 2 enfants.
 ```
 
@@ -440,20 +442,25 @@ Dans l’exemple précédent, 66 est le nombre de familles qui ont 2 enfants.
 | n i(Effectif)| ··· | 66 | ··· |
 
 
-##### 2.2. FRÉQUENCE PARTIELLE - FRÉQUENCE CUMULÉE 
-
 #### 2.1.2 Effectif cumulé
 
-```
-Définition 8
-Pour chaque valeur x i, on pose par définition
 
+**Définition 8**
+
+```console
+Pour chaque valeur x i, on pose par définition
+```
+```js
                N i =n 1 +n 2 +...+ni
+```
+```console
 L’effectif cumulé N id’une valeur est la somme de l’effectif de cette valeur et de tous
 les effectifs des valeurs qui précèdent.
 ```
-```
-Exemple 10
+
+- Exemple 10
+
+```console
 Dans l’exemple précédent : 50 est le nombre de familles qui ont un nombre d’enfant
 inférieur à 1. Nous le regardons dans le tableau suivant :
 ```
@@ -461,16 +468,22 @@ inférieur à 1. Nous le regardons dans le tableau suivant :
 | xi | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |----|---|---|---|---|---|---|---|
 |Ni | 18 | 50 | 116 | 157 | 189 | 198 | 200 |
-```
+
+
 **Interprétation** :
+
+```console
 N _i_ est le nombre d’individus dont la valeur du caractère est inférieur
 ou égale àx _i_. De ce fait, l’effectif total est donné par
-
+```
+```js
                               n
                    N=card{Ω) =∑ ni
                              i=1
 ```
+```console
 Dans notre exemple précédent, nous avonsN= 200.
+```
 
 ### 2.2 Fréquence partielle - Fréquence cumulée
 
