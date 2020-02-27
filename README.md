@@ -865,481 +865,53 @@ _- Plus il est petit, plus les caractères sont concentrés autour de la moyenne
 ```
 Figure2.7:La dispersion d’une série statistique autour de sa moyenne
 ```
-### 2.6 Exercices corrigés
-
-**Exercice 7**
-
-_- Le tableau suivant donne la répartition selon le groupe sanguin de 40 individus pris au
-hasard dans une population,_
-
-```
-Groupes sanguins A B AB O
-```
-```
-L’effectif 20 10 n 3 5
-```
-_1. Déterminer la variable statistique et son type.
-2. Déterminer l’effectif des personnes ayant un groupe sanguin AB._
-
-
-##### 2.6. EXERCICES CORRIGÉS 25
-
-_3. Donner toutes les représentations graphiques possibles de cette distribution._
-
-**Solution** 1 - La population dans cette étude est les 40 personnes. DoncN= 40. La variable
-statistique est le groupe sanguin des individus et elle est qualitative.
-
-2 - L’effectif total est égal à 40. Par conséquent,
-
-##### N= 40 =
-
-```
-∑^4
-i =1
-```
-```
-n i.
-```
-Alors,
-20 + 10 +n 3 + 5 = 40.
-
-Ce qui implique quen 3 = 5.
-
-3- Nous avons deux représentations possibles "Tyaux d’orgue" et "Diagramme en secteur".
-
-```
-5
-```
-```
-10
-```
-```
-15
-```
-```
-20
-```
-```
-o AB B A Groupes sanguins
-```
-```
-Effectif
-```
-### A
-
-### AB
-
-### O
-
-### B
-
-```
-Figure2.8:A gauche "Tyaux d’orgue" et à droite "Diagramme en secteur"
-```
-Les angles dans la figure 2.8 se calcule en utilisant la règle de trois.
-
-**Exercice 8**
-
-_- Le gérant d’un magasin vendant des articles de consommation courante a relevé pour un
-article particulier qui semble connaître une très forte popularité, le nombre d’articles vendus
-par jour. Son relevé a porté sur les ventes des mois de Mars et Avril, ce qui correspond à
-52 jours de vente. Le relevé des observations se présente comme suit :_
-
-##### 7 13 8 10 9 12 10 8 9 10 6 14 7 15 9 11 12 11 12 5 14 11 8 10 14 12 8
-
-##### 5 7 13 12 16 11 9 11 11 12 12 15 14 5 14 9 9 14 13 11 10 11 12 9 15.
-
-_1. Quel type est la variable statistique étudiée.
-2. Déterminer le tableau statistique en fonction des effectifs, des fréquences, des effectifs_
-    _cumulés et des fréquences cumulés.
-3. Tracer le diagramme des bâtonnés associé à la variable_ X_._
-
-
-##### 26 2.6. EXERCICES CORRIGÉS
-
-_4. Soit_ F _xla fonction de répartition. Déterminer_ F _x.
-5. Calculer le mode Mo et la moyenne arithmétique_ x_.
-6. Déterminer à partir du tableau puis à partir du graphe, la valeur de la médiane Me.
-7. Calculer la variance et l’écart-type._
-
-**Solution** 1 - La population est les 52 jours et la variable statistique étudiée est le nombre
-d’articles vendus par jour. Son type est bien évidement quantitatif discret (nombre).
-
-2 - Le tableau statistique est donné par
-
-```
-x i 5 6 7 8 9 10 11 12 13
-n i 3 1 3 4 7 5 8 8 3
-```
-```
-f i 3/52 1/52 3/52 4/52 7/52 5 /52 8 /52 8/52 3 /52
-```
-```
-N i 3 4 7 11 18 23 31 39 42
-```
-```
-F i 3/52 4/52 7/52 11/52 18/52 23/52 31/52 39/52 42/52
-```
-##### 14 15 16
-
-```
-∑
-```
-```
-6 3 1 N= 52
-```
-```
-6 /52 3/52 1/52 1
-```
-```
-48 51 52 ∅
-```
-```
-48/52 51/52 1 ∅
-```
-3 - L’élaboration du diagramme des bâtonnets deX,
-
-4 - La fonction de répartition est donnée par
-
-```
-F x (x) =
-```
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-```
-0 , si x < 5 ,
-```
-```
-3 / 52 , si 5 ≤x < 6 ,
-4 / 52 , si 6 ≤x < 7 ,
-```
-```
-7 / 52 , si 7 ≤x < 8 ,
-... ...
-```
-```
-1 , si x≥ 16.
-```
-
-##### 2.6. EXERCICES CORRIGÉS 27
-
-```
-1
-```
-```
-2
-```
-```
-3
-```
-```
-4
-```
-```
-5
-```
-```
-6
-```
-```
-7
-```
-```
-8
-```
-_niou fi_
-
-(^5678910111213141516) _xi_
-Figure2.9:Diagramme à bâtons
-5 - Le mode est la valeur de la variable qui a le plus grand effectif, c’est à dire,n _i_ = 8.
-Donc,
-M _o_ = 11 et M 0 = 12.
-La moyenne arithmétique est donnée par ;
-x=^1
-N
-∑^12
-_i_ =1
-n _i_ x _i_ =
-∑^12
-_i_ =1
-f _i_ x _i_.
-Par conséquent,
-x=
-
-##### 1
-
-##### 52 (3×5 + 1×6 + 5×7 +...+ 1×16) =
-
-##### 555
-
-##### 52 = 10.^67.
-
-6 - La médiane est la valeur de la variable qui divise la population de la série statistique en
-deux parties égales. Nous avons,
-
-```
-F x (11−) =^23
-52
-< 0. 5 ≤F x (11+) =F(Me) =^31
-52
-```
-##### .
-
-Donc,Me= 11.
-
-7 - Nous commençons par la variance,
-
-```
-V ar(X) =^1
-N
-```
-```
-∑ n
-i =1
-```
-```
-n i x^2 i −x^2.
-```
-Après calcule, on trouve
-V ar(X) = 7. 64.
-
-
-##### 28 2.6. EXERCICES CORRIGÉS
-
-Par conséquent, l’écart type est calculé à partir de
-
-```
-σ X =
-```
-```
-√
-V ar(x) = 2. 76.
-```
-**Exercice 9**
-
-_- On considère deux groupes d’étudiants. Nous relevons leurs notes d’examens dans les deux
-tableaux suivants :_
-
-```
-Note (groupe A) 8 9 10 11
-Effectif 2 2 1 1
-```
-```
-Note (groupe B) 6 8 9 13 14
-Effectif 2 2 2 1 1
-```
-_Calculer la moyenne et l’écart type de chaque groupe. Comparer les deux groupes._
-
-**Solution** Dans un premier temps, nous remarquons que l’effectif total du groupe A est égal
-à 6 et celui du groupe B est égal à 8.
-
-```
-En utilisant la formule de la moyenne, nous obtenons
-```
-```
-x A = 9. 2 et x B = 9. 1.
-```
-On remarque que les moyennes sont très proches. Peut-on pour autant conclure que ces
-deux groupes ont des niveaux identiques?
-
-Nous répondons à cette question après le calcule des écarts type. Ils sont donnés
-par
-σ _XA_ = 1. 11 et σ _XB_ = 2. 8.
-
-Nous remarquons que même si les deux groupes ont des moyennes quasiment identiques,
-le groupe B est beaucoup plus dispersé que le groupe A carσ _XB_ > σ _AX_. Les étudiants de ce
-groupe ont des notes plus irréguliers. On peut dire donc que le groupe B est moins homogènes
-que le groupe A. En observant les valeurs du tableau, on voit que c’est cohérent.
-
-**Exercice 10**
-
-_-_
-
-_Un quartier résidentiel comprend_ 99 _unités d’habitation ayant une valeur locative
-moyenne de_ 10000 _Da. Deux nouvelles unités d’habitation sont construites dans le quar-
-tier : l’une a une valeur locative de_ 7000 _Da et l’autre, une villa luxueuse, a une valeur
-locative de_ 114000 _Da._
-
-_- Quelle est la nouvelle moyenne de valeur locative pour le quartier?_
-
-
-##### 2.7. EXERCICES SUPPLÉMENTAIRES 29
-
-_- Pouvait-on s’attendre à de tel résultat?_
-
-**Solution** - Le nouveau total des mesures de valeur locative est
-
-```
-(99×10000) + 7000 + 114000 = 1111000.
-```
-Le nouveau total d’individus statistiques est99 + 2 = 101. La nouvelle moyenne est
-donc
-1111000
-101
-
-##### = 110000.
-
-- On pouvait s’attendre à une augmentation de la moyenne car l’une des deux nouvelles
-valeurs est très nettement au dessus de la moyenne initiale.
-
-### 2.7 Exercices supplémentaires
-
-**Exercice 11**
-
-_- Pour déterminer le type de logement_ (F 2 ,F 3 ,...) _à construire, on étudie_ 20 _familles selon
-leur nombre d’enfants. Durant l’expérience, on note les résultats suivants :_
-
-```
-1 , 3 , 5 , 5 , 3 , 2 , 4 , 4 , 7 , 0 , 2 , 4 , 3 , 7 , 0 , 5 , 4 , 2 , 3 , 2
-```
-_- Déterminer, la population, l’unité (individu), la variable statistique et les modalités.
-- Déterminer le tableau statistique avec_ x _i,_ n _i,_ f _iet_ F _i._
-
-```
-Modalité 0 1 2 3 4 5 6 7
-```
-```
-∑
-```
-```
-n i
-N i
-f i
-F i
-```
-**Exercice 12**
-
-_-_
-
-```
-Voici le tableau des pourcentages obtenu pour la variable " Mode de logement" :
-```
-```
-x i "Cité U" "Studio" "Résidence" "Maison" "Autre" TOTAL
-% 4.8 16.5 38.6 28.6 11.6 100
-```
-
-##### 30 2.7. EXERCICES SUPPLÉMENTAIRES
-
-_Sachant que la taille de l’échantillon_ N= 189 _, retrouver les effectifs pour chaque modalité._
-
-**Exercice 13**
-
-_- Au poste de péage, on compte le nombre de voitures se présentant sur une période de_ 5
-_min. Sur_ 100 _observations de_ 5 _min, on obtient les résultats suivants :_
-
-```
-Nombre de voitures 1 2 3 4 5 6 7 8 9 10 11 12
-```
-```
-Nombre d’observations 2 8 14 20 19 15 9 6 2 3 1 1
-```
-_1. Construire la table des fréquences et le diagramme en bâtons en fréquences de la série_
-    _du nombre de voitures.
-2. Calculer la moyenne et l’écart-type de cette série.
-3. Déterminer la médiane._
-
-**Exercice 14**
-
-_- Dans une petite localité, on a relevé le nombre de pièces par appartement :_
-
-```
-Nombre de pièces 1 2 3 4 5 6 7
-```
-```
-Nombre d’appartements 48 72 96 64 39 25 3
-```
-_Le « nombre de pièces par appartement » est à considérer comme une variable aléatoire
-discrète à valeurs entières. (A l’interprétation, il faudra préciser que les « demi pièces » ne
-sont pas comptabilisées)._
-
-_- Déterminer le tableau statistique.
-- Tracer le diagramme des bâtonnés et la courbe des fréquences cumulées associés à la_
-    _variable statistique.
-- Calculer la moyenne et l’écart-type de cette série.
-- Déterminer la médiane._
-
-**Exercice 15**
-
-_- Une machine coupe des barres de_ 12 _cm. Mais malheureusement, elle n’est pas bien réglée
-et les longueurs varient autour de la valeur attendue. Une étude sur_ 185 _barres donnent les
-résultats suivants :_
-
-```
-Longueurs en cm 11.5 11.6 11.7 11.8 11.9 12 12.1 12.2 12.3
-```
-```
-Effectif 3 15 16 16 18 20 25 25 28
-```
-
-##### 2.7. EXERCICES SUPPLÉMENTAIRES 31
-
-_1. Quel type est la variable statistique étudiée.
-2. Déterminer le tableau statistique.
-3. Tracer le diagramme des bâtonnés et la courbe des fréquences cumulées associés à la_
-    _variable statistique.
-4. Calculer la moyenne et l’écart type._
-
-
-
-##### 33
 
 ## Chapitre 3
 
-# Étude d’une variable statistique
+### Étude d’une variable statistique continue 
 
-# continue
-
-Nous rappelons qu’une variable statistique (V.S) quantitative concerne une grandeur
-mesurable. Ses valeurs sont des nombres exprimant une quantité et sur lesquelles les opé-
-rations arithmétiques (addition, multiplication, etc,...) ont un sens. Nous allons dans ce
+ 
+Nous rappelons qu’une variable statistique (V.S) quantitative concerne une grandeur esurable.
+Ses valeurs sont des nombres exprimant une quantité et sur lesquelles les opérations
+arithmétiques (addition, multiplication, etc,...) ont un sens. Nous allons dans ce
 chapitre se focaliser sur la V.S quantitative continue.
 
 ### 3.1 Caractère continu
 
-```
+
 Définition 11
+
+```console
 On appelle V.S continue (ou caractère continu) toute application de Ω et à valeurs
 réelles et qui prend un nombre "important" de valeurs (Les caractères continus sont
 ceux qui ont une infinité de modalités).
 ```
-```
-Exemple 16
+
+**Exemple 16**
+
+```js
 Soit Ω l’ensemble des nouveaux nés au C.H.U d’une ville pendant les 3 premiers mois
 de 2017. Nous désignons par X le poids des nouveaux nés. On suppose que
-```
-```
-x min = 2. 701 et x max = 5. 001.
-```
-```
-Remarque 9
-Comment étudier ce caractère?
+           
+             x min = 2. 701 et x max = 5. 001.
 ```
 
-##### 34 3.1. CARACTÈRE CONTINU
+**Remarque 9**
 
-```
+```console
+      Comment étudier ce caractère?
+``` 
+
+```console
 Réponse : Partager les valeurs prises par X en classes de valeurs.
 ```
+
 #### 3.1.1 Classe de valeurs
 
+**Définition 12 **
+
 ```
-Définition 12
+
 On appelle classe de valeurs de X un intervalle de type [a,b[ tel que X∈[a,b[ si et
 seulement si a≤X(w)< b , c’est à dire, que les valeurs du caractère sont dans la classe
 [a,b[.
@@ -1352,120 +924,90 @@ sont des intervalles avec
 - a _k_ =L _k_ +1−L _k_ : son amplitude, son pas ou sa longueur.
 - C _k_ =x _k_ = (L _k_ +1+L _k_ )/ 2 : son centre.
 
-```
-Ck= Lk+1 2 +Lk
-```
-### Lk ak Lk+1
+# image class et valeur 
 
-```
-Remarque 10
+**Remarque 10**
+
+```console
 On supposera dans tous les cas étudiés que la distribution à l’intérieur des classes est
 uniforme (voir Figure 3.1). Cette hypothèse permet de justifier le fait qu’on choisisse
 le centre des classes comme représentant.
 ```
+
 #### 3.1.2 Nombre de classes
 
 En combien de classes partageons-nous les valeurs? la réponse n’est pas unique. SoitN
 l’effectif total. Nous pouvons considérer dans ce cours trois réponses à titre d’exemple.
 
 
-##### 3.1. CARACTÈRE CONTINU 35
-
+# image figure 3.1
 ```
 Figure3.1:Une représentation de la distribution des valeurs à l’intérieur d’une classe.
 ```
-1. Une réponse :
+1. Une réponse : √N,[√N](partie entière) ou[√N + 1] Donc, le nombre de classes k ~= √N.
 
-##### √
-
-##### N,[
-
-##### √
+**Exemple 17**
 
 ```
-N](partie entière) ou[
+Considérons 30 valeurs entre 56. 5 cm et 97. 8 cm. Dans ce cas, k= √30 et on prend k= 6  
 ```
-##### √
 
-```
-N] + 1. Donc, le nombre de classes
-```
-```
-kw
-```
-##### √
-
-##### N.
-
-```
-Exemple 17
-Considérons 30 valeurs entre 56. 5 cm et 97. 8 cm. Dans ce cas, k=
-```
-##### √
-
-```
-30 et on
-prend k= 6.
-```
 2. Une réponse : la formule de Sturge
 
-```
-k= 1 + 3.3 log 10 (N).
+```console
+         k= 1 + 3.3 log 10 (N).
 ```
 3. Une réponse : la formule de Yule
 
+```console
+k= 2. 54(racine quatrième√N)
 ```
-k= 2. 54
-```
-##### √
 
-##### N.
+**Remarque 11**
 
 ```
-Remarque 11
 De ce fait, on peut avoir plusieurs tableaux statistiques selon le nombre de classes.
 ```
+
+**Exemple 18**
+
 ```
-Exemple 18
 Si on prend N= 30 , alors le nombre de classes est donné, par exemple, par
 ```
 
-##### 36 3.1. CARACTÈRE CONTINU
+_- soit la formule de Sturge_ k= 1 + 3.3 log 10 (30) ~= 6 _,
+- soit la formule de Yule_ k= 2. 54(racine quatrième √30) ~= 6
 
-_- soit la formule de Sturge_ k= 1 + 3.3 log 10 (30)w 6 _,
-- soit la formule de Yule_ k= 2. 54
+Nous mentionnons que les deux formules sont presque pareils si N << 200.
 
-##### √
 
-```
-30 w 6.
-Nous mentionnons que les deux formules sont presque pareils si N 200.
-```
 Nous rappelons maintenant la définition de l’étendu. De plus, dans le cas continue
 nous parlons aussi du pas ou de la longueur de la classe.
 
-```
-Définition 13
+
+**Définition 13**
+
+```console
 Le nombre
-e=x max −x min
+                  e=x max −x min
 s’appelle étendu de X. Dans ce cas, on peut définir le pas par
+
+a i := étendu/nombre de classes  =x max −x min/k
 ```
-```
-a i := étendu
-nombre de classes
-=x max −x min
-k
-```
+
 #### 3.1.3 Effectif et fréquence d’une classe
 
+
+**Définition 14**
+
 ```
-Définition 14
 La quantité
-n i := Card {w∈Ω : X(w)∈C i }
-```
-```
+             n i := Card {w∈Ω : X(w)∈C i }
 s’appelle effectif partiel de C i.
+
 ```
+# image figure 3.2
+
 ### ni
 
 ```
