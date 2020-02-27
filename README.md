@@ -1,8 +1,8 @@
-### DÉCOUVREZ LA STATISTIQUE DESCRIPTIVE 
+[DÉCOUVREZ LA STATISTIQUE DESCRIPTIVE]()
 
 
 
-#### NAN DATA ANALYST
+[NAN DATA ANALYST]()
 
 
 
@@ -38,7 +38,7 @@ La place de ce cours dans le future métier des étudiants :
 **Symboles et Notations**
 
 
-******Symbole Signification*******
+- Symbole Signification & signification
 
 ```js
 [ ] La partie entière.
@@ -80,6 +80,7 @@ Cov(X,Y) La covariance entre les variablesXetY.
 ρXY Le coefficient de corrélation entre les variablesXetY.
 
 F(x) La fonction s’appelle la fonction de répartition du caractèreX
+
 ```
 
 
@@ -89,6 +90,7 @@ F(x) La fonction s’appelle la fonction de répartition du caractèreX
 
 # Généralités sur la statistique
 
+```console
 La statistique est l’étude de la collecte de données, leur analyse, leur traitement, l’in-
 terprétation des résultats et leur présentation afin de rendre les données compréhensibles
 par tous. C’est à la fois une science, une méthode et un ensemble de techniques.
@@ -101,6 +103,7 @@ Les données étudiées peuvent être de toute nature, ce qui rend la statistiqu
 dans tous les champs disciplinaires et explique pourquoi elle est enseignée dans toutes les
 filières universitaires, de l’économie à la biologie en passant par la psychologie et bien sûr
 les sciences de l’ingénieur. La statistique consiste à :
+```
 
 - Recueillir des données.
 - Présenter et résumer ces données.
@@ -109,26 +112,31 @@ les sciences de l’ingénieur. La statistique consiste à :
 
 ### 1.1 Vocabulaire
 
+```console
 Les statistiques consistent en diverses méthodes de classement des données tels que les
 tableaux, les histogrammes et les graphiques, permettant d’organiser un grand nombre de
 données. Les statistiques se sont développées dans la deuxième moitié du XIXe siècle dans
 le domaine des sciences humaines (sociologie, économie, anthropologie, ...). Elles se sont
 dotées d’un vocabulaire particulier.
-
+```
 
 
 #### 1.1.1 Épreuve statistique
 
+```console
 Les statistiques descriptives visent à étudier les caractéristiques d’un ensemble d’ob-
 servations comme les mesures obtenues lors d’une expérience. L’expérience est l’étape pré-
 liminaire à toute étude statistique. Il s’agit de prendre "contact" avec les observations. De
 manière générale, la méthode statistique est basée sur le concept suivant.
-
 ```
-Définition 1
+
+**Définition 1**
+
+```console
 L’épreuve statistique est une expérience que l’on provoque.
 ```
-```
+
+```js
 Exemple 1 (La durée de vie des lampes)
 
 Imaginons le cas suivant : un fabricant d’ampoules électriques ayant le choix entre
@@ -139,13 +147,14 @@ jusqu’à extinction, puis comparer les résultats obtenus.
 ```
 #### 1.1.2 Population
 
+```console
 En statistique, on travaille sur des populations. Ce terme vient du fait que la démo-
 graphie, étude des populations humaines, a occupé une place centrale aux débuts de la
 statistique, notamment au travers des recensements de population. Mais, en statistique,
 le terme de population s’applique à tout objet statistique étudié, qu’il s’agisse d’étudiants
 (d’une université ou d’un pays), de ménages ou de n’importe quel autre ensemble sur lequel
 on fait des observations statistiques. Nous définissons la notion de population.
-
+```
 
 ##### 1.1. VOCABULAIRE 
 
