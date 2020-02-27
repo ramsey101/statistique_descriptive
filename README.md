@@ -640,18 +640,19 @@ mettent de représenter cette variable : le diagramme en bâtons et le diagramme
 Pour l’illustration, nous prenons l’exemple précédent de départ (nombre d’enfants par
 famille). Nous rappelons le tableau statistique associe.
 
-```
+
 
 | x i | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |-----|---|---|---|---|---|---|---|
 | n i | 18 | 32 | 66 | 41 | 32 | 9 | 2 |
-```
+
+
 **Diagramme à bâtons**
 
 On veut représenter cette répartition sous la forme d’un diagramme en bâtons. À
 chaque marque correspond un bâton. Les hauteurs des bâtons sont proportionnelles aux
 effectifs représentés (voir Figure 2.5).
-
+# image figure 2.5
 ```
 Figure2.5:Diagramme à bâtons
 ```
@@ -662,14 +663,10 @@ allons dans cette partie exploiter ses valeurs cumulées pour introduire la noti
 de répartition. Cette notion ne concerne que les variables quantitatives.
 
 
-##### 2.3. REPRÉSENTATION GRAPHIQUE DES SÉRIES STATISTIQUES 19
 
 ```
-Soit la fonctionF x :R→[0,1]définie par
-```
-```
-F x (x) :=pourcentage des individus dont la valeur du caractère est≤x.
-```
+Soit la fonctionF x :R→[0,1]définie par 
+F x (x) :=pourcentage des individus dont la valeur du caractère est≤x. 
 Cette fonction s’appelle la fonction de répartition du caractèreX.
 
 ```
@@ -677,73 +674,63 @@ Remarque 4
 Pour tout i∈{ 1 ,...,n} , on a
 F x (x i ) =F i.
 La courbe de F xpasse par les points (x 1 ,F 1 ) , (x 2 ,F 2 ),... et (x n ,F n ).
+
 ```
 En se basant sur notre exemple, la courbe deF _x_ est représentée ci-dessous (Figure 2.6)
 sur
-R=]−∞,0[∪[0,1[∪.... ∪ [6,+∞[.
+               R=]−∞,0[∪[0,1[∪.... ∪ [6,+∞[.
 
 Dans ce cas, nous avons
-
+```
 - Six < 0 , alorsF _x_ (x) = 0.
 - Six∈[0,1[, alorsF _x_ (x) = 0. 09.
     ...
 - Six≥ 6 , alorsF _x_ (x) = 1.
 
+```
 Cette courbe s’appelle "la courbe cumulative des fréquences". La courbe cumulative est une
 courbe en escalier représentant les fréquences cumulées relatives.
-
+```
+# image figure 2.6
 ```
 Figure2.6:Représentation d’une variable quantitative discrète par la courbe cumulative.
 ```
 
-##### 20 2.4. PARAMÈTRES DE POSITION
+
 
 ```
 Proposition 2
 La fonction de répartition satisfait, pour i∈{ 1 ,...,n} ,
-```
-_- l’égalité,_ F _x_ (x _i_ ) =F _i,
-- l’expression,_ F _x_ (x) =
+
+l’égalité,F x (x i ) = F i,
+
+l’expression, F x (x) =
+                              0 , si x < x 1 ,
+                              F 1 , si x 1 ≤x < x 2 ,
+                              F i , si x i ≤x < x i +1,
+                              1 , si x≥x n.
 
 ```
-
-
-
-
-
-
-
-
-
-```
-```
-0 , si x < x 1 ,
-```
-```
-F 1 , si x 1 ≤x < x 2 ,
-F i , si x i ≤x < x i +1,
-1 , si x≥x n.
-```
-##### .
 
-### 2.4 Paramètres de position (caractéristique de tendance cen-
+### 2.4 Paramètres de position (caractéristique de tendance centrale) 
 
-### trale)
+
 
 Les indicateurs statistiques de tendance centrale (dits aussi de position) considérés
 fréquemment sont la moyenne, la médiane et le mode.
 
 **Le mode**
 
+```
 Le mode d’une V.S est la valeur qui a le plus grand effectif partiel (ou la plus grande
 fréquence partielle) et il est dénoté parM 0.
+```
 
 ```
 Exemple 13
 Dans l’exemple précédent, le mode est égal à 2 qui correspondant au plus grand effectif.
 ```
-
-##### 2.4. PARAMÈTRES DE POSITION 21
+# image exemple 13
 
 ```
 Remarque 5
@@ -752,33 +739,31 @@ On peut avoir plus d’un mode ou rien.
 **La médiane**
 
 ```
-On appelle médiane la valeur Me de la V.S X qui vérifie la relation suivante :
-```
-```
-F x (Me−)< 0. 5 ≤F x (Me+) =F x (Me).
-```
+On appelle médiane la valeur Me de la V.S X qui vérifie la relation suivante : 
+                     F x (Me−)< 0. 5 ≤F x (Me+) =F x (Me).
 La médiane partage la série statistique en deux groupes de même effectif.
 
 ```
-Exemple 14
-Dans l’exemple précédent, la relation
+
+***Exemple 14***
 ```
+   Dans l’exemple précédent, la relation 
+             F x (0) = 0< 0. 5 ≤F x (0+) = 0. 09
+   n’est pas satisfaite. Donc, la médiane est différente de 0. Par contre, nous avons
+             F x (2−) = 0. 25 < 0. 5 ≤F x (2+) =F(2) = 0. 58. 
+   Donc, Me= 2.
 ```
-F x (0) = 0< 0. 5 ≤F x (0+) = 0. 09
-```
-```
-n’est pas satisfaite. Donc, la médiane est différente de 0. Par contre, nous avons
-```
-```
-F x (2−) = 0. 25 < 0. 5 ≤F x (2+) =F(2) = 0. 58.
-```
-```
-Donc, Me= 2.
-```
+
 **La moyenne**
 
 ```
 On appelle moyenne deX, la quantité
+
+i=1
+
+fixi
+
+,
 ```
 ```
 x=^1
