@@ -938,9 +938,9 @@ Le paramètre σ xmesure la distance moyenne entre x et les valeurs de X (voir F
 - Plus il est grand, plus les caractères sont dispersés autour de la moyenne (on_
     _dit que la série est hétérogène).
 ```
-```
+
 # image figure 2.7
-```
+
 ```
 Figure2.7:La dispersion d’une série statistique autour de sa moyenne
 ```
@@ -972,8 +972,8 @@ ceux qui ont une infinité de modalités).
 ```console
 Soit Ω l’ensemble des nouveaux nés au C.H.U d’une ville pendant les 3 premiers mois
 de 2017. Nous désignons par X le poids des nouveaux nés. On suppose que
- ```
- ```js
+```
+```js
              x min = 2. 701 et x max = 5. 001.
 ```
 
@@ -983,7 +983,7 @@ _Remarque 9_
       Comment étudier ce caractère?
 ``` 
 
-```console
+```js
 Réponse : Partager les valeurs prises par X en classes de valeurs.
 ```
 
@@ -991,12 +991,14 @@ Réponse : Partager les valeurs prises par X en classes de valeurs.
 
 **Définition 12 **
 
-```
+```console
 
 On appelle classe de valeurs de X un intervalle de type [a,b[ tel que X∈[a,b[ si et
 seulement si a≤X(w)< b , c’est à dire, que les valeurs du caractère sont dans la classe
 [a,b[.
 ```
+
+
 Dès qu’un caractère est identifié en tant que continu, ces modalitésC _k_ = [L _k_ ,L _k_ +1[
 sont des intervalles avec
 
@@ -1007,7 +1009,7 @@ sont des intervalles avec
 
 # image class et valeur 
 
-**Remarque 10**
+_Remarque 10_
 
 ```console
 On supposera dans tous les cas étudiés que la distribution à l’intérieur des classes est
@@ -1017,58 +1019,64 @@ le centre des classes comme représentant.
 
 #### 3.1.2 Nombre de classes
 
+```console
 En combien de classes partageons-nous les valeurs? la réponse n’est pas unique. SoitN
 l’effectif total. Nous pouvons considérer dans ce cours trois réponses à titre d’exemple.
-
+```
 
 # image figure 3.1
-```
+
+```console
+
 Figure3.1:Une représentation de la distribution des valeurs à l’intérieur d’une classe.
 ```
-1. Une réponse : √N,[√N](partie entière) ou[√N + 1] Donc, le nombre de classes k ~= √N.
 
-**Exemple 17**
-
+```js
+1. Une réponse : √ N,[√ N](partie entière) ou[√ N + 1] Donc, le nombre de classes k ~= √ N.
 ```
+- Exemple 17
+
+```console
 Considérons 30 valeurs entre 56. 5 cm et 97. 8 cm. Dans ce cas, k= √30 et on prend k= 6  
 ```
 
-2. Une réponse : la formule de Sturge
-
 ```console
+2. Une réponse : la formule de Sturge
+```
+```js
          k= 1 + 3.3 log 10 (N).
 ```
+```console
 3. Une réponse : la formule de Yule
+```
+```js
+k= 2. 54(racine quatrième√ N)
+```
+
+_Remarque 11_
 
 ```console
-k= 2. 54(racine quatrième√N)
-```
-
-**Remarque 11**
-
-```
 De ce fait, on peut avoir plusieurs tableaux statistiques selon le nombre de classes.
 ```
 
-**Exemple 18**
+- Exemple 18
 
-```
+```console
 Si on prend N= 30 , alors le nombre de classes est donné, par exemple, par
-```
-
-_- soit la formule de Sturge_ k= 1 + 3.3 log 10 (30) ~= 6 _,
-_- soit la formule de Yule_ k= 2. 54(racine quatrième √30) ~= 6
+ soit la formule de Sturge_ k= 1 + 3.3 log 10 (30) ~= 6 _,
+ soit la formule de Yule_ k= 2. 54(racine quatrième √30) ~= 6
 
 Nous mentionnons que les deux formules sont presque pareils si N << 200.
-
+```
+```console
 
 Nous rappelons maintenant la définition de l’étendu. De plus, dans le cas continue
 nous parlons aussi du pas ou de la longueur de la classe.
-
+```
 
 **Définition 13**
 
-```console
+```js
 Le nombre
                   e=x max −x min
 s’appelle étendu de X. Dans ce cas, on peut définir le pas par
@@ -1081,7 +1089,7 @@ a i := étendu/nombre de classes  =x max −x min/k
 
 **Définition 14**
 
-```
+```js
 La quantité
              n i := Card {w∈Ω : X(w)∈C i }
 s’appelle effectif partiel de C i.
@@ -1122,9 +1130,9 @@ On appelle la fréquence cumulée de C ila quantité
                        j =1
 ```
 
-**Remarque 12**
+_Remarque 12_
 
-```
+```console
 Nous avons, comme dans le chapitre précédent, les interprétations suivantes :
 ```
 _-_ n _i_ : _est le nombre d’individus dont les valeurs des caractères sont dans la classe_
