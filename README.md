@@ -30,272 +30,7 @@ La place de ce cours dans le future métier des étudiants :
 - Prédiction et décisions (probabilités de risque ou d’occurrence)
 
 
-
-## i
-
-
-
-TABLE DES MATIÈRES iii
-
-```
-Statistiques descriptives
-```
-```
-Étude d’une variable statistique discrète 
-```
-
-```
-Étude d’une variable statistique continue
-```
-
-```
-Généralités sur la statistique
-```
-```
-Caractère continue
-```
-```
-Représentation graphique d’une V.S continue
-
-```
-
-```
-Paramètres de tendance central
-```
-```
-et de dispersion
-```
-```
-Vocabulaire
-```
-```
-Types du caractères
-```
-```
-Représentation des séries statistiques
-```
-```
-à deux variables
-Ét## i
-
-
-
-TABLE DES MATIÈRES iii
-
-```
-Statistiques descriptives
-```
-```
-Étude d’une variable statistique discrète 
-```
-
-```
-Étude d’une variable statistique continue
-```
-
-```
-Généralités sur la statistique
-```
-```
-Caractère continue
-```
-```
-Représentation graphique d’une V.S continue
-
-```
-
-```
-Paramètres de tendance central
-```
-```
-et de dispersion
-```
-```
-Vocabulaire
-```
-```
-Types du caractères
-```
-```
-Représentation des## i
-
-
-
-TABLE DES MATIÈRES iii
-
-```
-Statistiques descriptives
-```
-```
-Étude d’une variable statistique discrète 
-```
-
-```
-Étude d’une variable statistique continue
-```
-
-```
-Généralités sur la statistique
-```
-```
-Caractère continue
-```
-```
-Représentation graphique d’une V.S continue
-
-```
-
-```
-Paramètres de tendance central
-```
-```
-et de dispersion
-```
-```
-Vocabulaire
-```
-```
-Types du caractères
-```
-```
-Représentation de## i
-
-
-
-TABLE DES MATIÈRES iii
-
-```
-Statistiques descriptives
-```
-```
-Étude d’une variable statistique discrète 
-```
-
-```
-Étude d’une variable statistique continue
-```
-
-```
-Généralités sur la statistique
-```
-```
-Caractère continue
-```
-```
-Représentation graphique d’une V.S continue
-
-```
-
-```
-Paramètres de tendance central
-```
-```
-et de dispersion
-```
-```
-Vocabulaire
-```
-```
-Types du caractères
-```
-```
-Représentation des séries statistiques
-```
-```
-à d## i
-
-
-
-TABLE DES MATIÈRES iii
-
-```
-Statistiques descriptives
-```
-```
-Étude d’une variable statistique discrète 
-```
-
-```
-Étude d’une variable statistique continue
-```
-
-```
-Généralités sur la statistique
-```
-```
-Caractère continue
-```
-```
-Représentation graphique d’une V.S continue
-
-```
-
-```
-Paramètres de tendance central
-```
-```
-et de dispersion
-```
-```
-Vocabulaire
-```
-```
-Types du caractères
-```
-```
-Représentation des séries statistiques
-```
-```
-à deux variables
-Étude d’une variable statistique
-```
-```eux variables
-Étude d’une variable statistique
-```
-```s séries statistiques
-```
-```
-à deux variables
-Étude d’une variable statistique
-```
-``` séries statistiques
-```
-```
-à deux variables
-Étude d’une variable statistique
-```
-```ude d’une variable statistique
-```
-```
-à deux dimensions
-```
-```
-Étude d’une variable statistique
-```
-```
-à une dimension
-```
-```
-Effectif partiel - effectif cumulé
-```
-```
-Fréquence partielle - Fréquence cumulée
-```
-```
-Représentation graphique de séries statistiques
-```
-```
-Paramètres de positionet de dispersion
-```
-```
-Description numérique
-```
-```
-Ajustement linéaire
-```
-
-
-## v
+## PLAN DU COURS 
 
 - 1 Généralités sur la statistique Table des matières
    - 1.1 Vocabulaire
@@ -387,40 +122,33 @@ Symbole Signification
 [ ] La partie entière.
 Card(Ω) Le cardinal : nombre d’éléments de l’ensembleΩ.
 := Est défini comme étant (symbole d’affectation).
-```
-```
+
+
 N Ensemble des nombres entiers naturels.
 Z Ensemble des nombres entiers relatifs.
-```
-```
+
+
 R Ensemble des nombres réels.
 R^2 Ensemble des couples de nombres réels.
-∑ n
-i =
-```
-```
-La somme pourivariant de 1 àn.
-```
-```
+n
+∑ = La somme pourivariant de 1 àn.
+i 
+
 V.S La variable statistique
 Me La médiane.
 Me+ Me par valeur supérieure.
-```
-```
+
 Me− Me par valeur inférieure.
 M 0 Le mode.
-```
-```
+
 x La moyenne d’une série statistiqueX.
 σ X L’écart-type deX.
 Var(X) La variance deX.
-```
-```
-Cov(X,Y) La covariance entre les variablesXetY.
-```
-### ρXY Le coefficient de corrélation entre les variablesXetY.
 
-```
+Cov(X,Y) La covariance entre les variablesXetY.
+ρXY Le coefficient de corrélation entre les variablesXetY.
+
+
 F x La fonction s’appelle la fonction de répartition du caractèreX
 ```
 
