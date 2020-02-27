@@ -168,13 +168,17 @@ est noté Ω.
 ```console
  On considère l’ensemble des étudiants de la section A. On s’intéresse aux_
  nombre de frères et sœurs de chaque étudiant. Dans ce cas : 
+```
 
 ```js
             Ω = ensemble desétudiants.
+```
+
 ```console
 Si l’on s’intéresse maintenant a la circulation automobile dans une ville, la po-_
 pulation est alors constituée de l’ensemble des véhicules susceptibles de circuler_
 dans cette ville à une date donnée. Dans ce cas :
+```
 
 ```js
             Ω = ensemble des véhicules.
