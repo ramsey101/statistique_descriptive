@@ -135,9 +135,9 @@ manière générale, la méthode statistique est basée sur le concept suivant.
 ```console
 L’épreuve statistique est une expérience que l’on provoque.
 ```
-
+- Exemple 1 (La durée de vie des lampes)
 ```js
-Exemple 1 (La durée de vie des lampes)
+
 
 Imaginons le cas suivant : un fabricant d’ampoules électriques ayant le choix entre
 4 types de filaments se propose d’étudier l’influence de la nature du filament sur la
@@ -156,160 +156,181 @@ le terme de population s’applique à tout objet statistique étudié, qu’il 
 on fait des observations statistiques. Nous définissons la notion de population.
 ```
 
-##### 1.1. VOCABULAIRE 
+**Définition 2**
 
-```
-Définition 2
+```console
 On appelle population l’ensemble sur lequel porte notre étude statistique. Cet ensemble
 est noté Ω.
 ```
-```
-Exemple 2
-```
-_- On considère l’ensemble des étudiants de la section A. On s’intéresse aux_
-    _nombre de frères et sœurs de chaque étudiant. Dans ce cas_
 
-```
-Ω = ensemble desétudiants.
-```
-_- Si l’on s’intéresse maintenant a la circulation automobile dans une ville, la po-_
-    _pulation est alors constituée de l’ensemble des véhicules susceptibles de circuler_
-    _dans cette ville à une date donnée. Dans ce cas_
+- Exemple 2
 
+```console
+ On considère l’ensemble des étudiants de la section A. On s’intéresse aux_
+ nombre de frères et sœurs de chaque étudiant. Dans ce cas : 
+
+```js
+            Ω = ensemble desétudiants.
+```console
+Si l’on s’intéresse maintenant a la circulation automobile dans une ville, la po-_
+pulation est alors constituée de l’ensemble des véhicules susceptibles de circuler_
+dans cette ville à une date donnée. Dans ce cas :
+
+```js
+            Ω = ensemble des véhicules.
 ```
-Ω = ensemble des véhicules.
-```
+
 #### 1.1.3 Individu (unité statistique)
 
+```console
 Une population est composée d’individus. Les individus qui composent une population
 statistique sont appelés unités statistiques.
 
 ```
-Définition 3
+**Définition 3**
+
+```console
 On appelle individu tout élément de la population Ω , il est noté ω ( ω dans Ω ).
 ```
-```
-Remarque 1
+
+_Remarque 1_
+
+```console
 L’ensemble Ω peut être un ensemble de personnes, de choses ou d’animaux...
 L’unité statistique est un objet pour lequel nous sommes intéressés à recueillir de l’in-
 formation.
 ```
-```
-Exemple 3
-```
-_- Dans l’exemple indiqué ci-dessus, un individu est tout étudiant de la section.
-- Si on étudie la production annuelle d’une usine de boîtes de boisson en métal_
-    _(canettes). La population est l’ensemble des boîtes produites durant l’année et_
 
+- Exemple 3
 
-##### 4 1.1. VOCABULAIRE
-
-```
+```js
+Dans l’exemple indiqué ci-dessus, un individu est tout étudiant de la section.
+Si on étudie la production annuelle d’une usine de boîtes de boisson en métal
+(canettes). La population est l’ensemble des boîtes produites durant l’année et 
 une boîte constitue un individu.
 ```
+
 #### 1.1.4 Caractère (variable statistique)
 
+```console
 La statistique « descriptive », comme son nom l’indique cherche à décrire une po-
 pulation donnée. Nous nous intéressons au caractéristique des unités qui peuvent prendre
 différentes valeurs.
 
 ```
-Définition 4
+
+**Définition 4**
+
+```console
 On appelle caractère (ou variable statistique, dénotée V.S) toute application
-```
-```
-X: Ω→C.
-```
-```
+                       X: Ω→C.
+
 L’ensemble C est dit : ensemble des valeurs du caractère X (c’est ce qui est mesuré ou
 observé sur les individus)
 ```
-```
-Exemple 4
+
+
+- Exemple 4
+
+```js
 Taille, température, nationalité, couleur des yeux, catégorie socioprofessionnelle ...
 ```
-```
-Remarque 2
+
+_Remarque 2_
+
+```js
 Soit Ω un ensemble. On appelle et on note Card (Ω) , le nombre d’éléments de Ω.
+           Card (Ω) := nombre d’éléments de Ω =N. 
 ```
-```
-Card (Ω) := nombre d’éléments de Ω =N.
-```
+
 #### 1.1.5 Modalités
 
+```console
 Les modalités d’une variable statistique sont les différentes valeurs que peut prendre
 celle-ci.
 
 ```
-Exemple 5
+- Exemple 5
+
+```js
+Variable est " situation familiale "
+Modalités sont " célibataire, marié, divorcé "
+
+Variable est" statut d’interrupteur "
+Modalités sont " 0 et 1 ".
+
+Variable est " catégories socio-professionnelles "
+Modalités sont " Employés, ouvriers, retraités,... "
 ```
-_- Variable est " situation familiale "_
-    _Modalités sont " célibataire, marié, divorcé "_
 
-
-##### 1.2. TYPES DES CARACTÈRES 
-
-_- Variable est" statut d’interrupteur "_
-    _Modalités sont " 0 et 1 ".
-- Variable est " catégories socio-professionnelles "_
-    _Modalités sont " Employés, ouvriers, retraités,... "_
-
+```console
 Les modalités sont les différentes situations dans lesquelles les individus peuvent se
 trouver à l’égard du caractère considéré.
+```
 
 ### 1.2 Types des caractères
 
+```console
 Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
 tères quantitatifs.
-
+```
 # iamge1. 2
 
 #### 1.2.1 Caractère qualitatif
 
+```console
 Les caractères qualitatifs sont ceux dont les modalités ne peuvent pas être ordonnées,
 c’est-à-dire que si l’on considère deux caractères pris au hasard, on ne peut pas dire de l’un
 des caractères qu’il est inférieur ou égal à l’autre. Plus précisément, nous avons la définition
 suivante.
-
 ```
-Définition 5
+
+**Définition 5**
+
+```console
 Les éléments de C sont représentés par autre chose que des chiffres.
 ```
-```
-Exemple 6
+
+- Exemple 6
+
+```js
 L’état d’une maison : on peut considérer les modalités suivantes
+- Ancienne.
+
+- Dégradée.
+
+- Nouvelle.
+
+- Rénovée.
 ```
-
-_ Ancienne.
-_ Dégradée.
-_ Nouvelle.
-_ Rénovée.
-
-
-
-
 
 #### 1.2.2 Caractère quantitatif
 
+```console
 Les caractères quantitatifs sont des caractères dont les modalités peuvent être ordon-
 nées. Ainsi, l’âge, la taille de vie ou le salaire d’un individu sont des caractères quantitatifs.
 Donc, nous avons la définition suivante.
 
 ```
-Définition 6
+**Définition 6**
+
+```console
 L’ensemble des valeurs est représenté par des chiffres. De même, il est partagé en deux
 sortes de caractères, discret et continu (voir l’exemple).
 ```
-```
-Exemple 7
-```
-_- Le salaire d’employés d’une usine._
-    _Modalités :_ 10000 _da ,_ 20000 _da..._
-    _Type : Discret.
-- La rigidité des ressorts._
-    _Modalités :_ [10,20] _N/m_
-    _Type : continu._
 
+- Exemple 7
+
+```js
+Le salaire d’employés d’une usine.
+    Modalités :10000 da ,20000 da
+    Type : Discret.
+La rigidité des ressorts.
+    Modalités :[10,20] N/m
+    Type : continu.
+```
+
+```console
 En général, la variable quantitative discrète est une variable ne prenant que des valeurs
 entières (plus rarement décimales). Le nombre de valeurs distinctes d’une telle variable
 est habituellement assez faible. Citons, par exemple, le nombre de maisons par quartier
@@ -320,31 +341,34 @@ avons un grand nombre d’observations distinctes.
 La statistique descriptive a pour objectif de synthétiser l’information contenue dans
 les jeux de données au moyen de tableaux, figures ou résumés numériques. Les variables
 statistiques sont analysées différemment selon leur nature (quantitative, qualitative).
-
+```
 
 ## Chapitre 2
 
 # Étude d’une variable statistique discrète
 
 
-
+```console
 Le caractère statistique peut prendre un nombre fini raisonnable de valeurs (note,
 nombre d’enfants, nombre de pièces, ...). Dans ce cas, le caractère statistique étudié est
 alors appelé un caractère discret.
 
-```
+```console
 Dans toute la suite du chapitre, nous considérons la situation suivante :
 ```
-```
-X: Ω→{x 1 ,x 2 ,...,x n },
-```
+```js
+                X: Ω→{x 1 ,x 2 ,...,x n },
+```console
 avec Card(Ω) :=Nest le nombre d’individus dans notre étude.
 
 Nous allons utiliser souvent l’exemple ci-dessous pour illustrer les énoncés de ce cha-
 pitre.
 
 ```
-Exemple 8
+
+- Exemple 8
+
+```console
 Une enquête réalisée dans un village porte sur le nombre d’enfants à charge par famille.
 On note X le nombre d’enfants, les résultats sont données par ce tableau :
 ```
@@ -363,26 +387,32 @@ _-_ Ω _ensemble des familles.
                     X:ω→X(ω).
 ```
 
-##### 12 2.1. EFFECTIF PARTIEL - EFFECTIF CUMULÉ
 
-```
+```console
 On lit, à la famille ω , on associe X(ω) = le nombre d’enfants de cette famille.
 ```
+
 ### 2.1 Effectif partiel - effectif cumulé
 
+```console
 On étudie ici un caractère statistique numérique représenté par une suitex _i_ décrivant
 la valeur du caractère avecivarie de 1 àk.
+```
 
 #### 2.1.1 Effectif partiel (fréquence absolue)
 
-```
-Définition 
+
+**Définition 7 **
+
+```js
 Pour chaque valeur x i, on pose par définition
                  n i = Card {ω∈Ω : X(ω) =x i }.
                  
 n i: le nombre d’individus qui ont le même x i, ça s’appelle effectif partiel de x i.
 ```
-# image 2.1.1
+
+# image 2.1
+
 ```
 Figure2.1:Le nombre d’individus qui prennent la valeurx i.
 ```
