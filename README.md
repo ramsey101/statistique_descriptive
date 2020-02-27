@@ -560,7 +560,7 @@ Nous pouvons conclure la propriété suivante.
 Pour chaque valeur x i, on pose par définition
 ```
 ```js
-                    F i =f 1 +f 2 +...+f i. 
+                    F i = f 1 + f2 +...+ fi. 
 ```
 ```console
 La quantité F is’appelle la fréquence cumulée de x i.
@@ -612,23 +612,26 @@ on aperçoit mieux les anomalies sur un graphique que dans un tableau.
 ```
 **La recherche des régularités** : 
 ```console 
-régularité dans le mouvement, répétition du phéno-
-mène.
+régularité dans le mouvement, répétition du phénomène. 
+
 ```
 
 #### 2.3.1 Distribution à caractère qualitatif
 
+```console
 A partir de l’observation d’une variable qualitative, deux diagrammes permettent de
 représenter cette variable : le diagramme en bandes (dit tuyaux d’orgue) et le diagramme
 à secteurs angulaires (dit camembert).
-
+```
 
 
 **Tuyaux d’orgues**
 
+```console
 Nous portons en abscisses les modalités, de façon arbitraire. Nous portons en ordonnées
 des rectangles dont la longueur est proportionnelle aux effectifs, ou aux fréquences, de chaque
 modalité (voir Figure 2.3).
+```
 # image figure 2.3
 
 ```
@@ -636,16 +639,21 @@ Figure2.3:Tuyaux d’orgues
 ```
 **Diagramme par secteur (diagramme circulaire)**
 
+```console
 Les diagrammes circulaires, ou semi-circulaires, consistent à partager un disque ou un
 demi-disque, en tranches, ou secteurs, correspondant aux modalités observées et dont la
 surface est proportionnelle à l’effectif, ou à la fréquence, de la modalité (voir Figure 2.4).
+```
 # image figure 2.4
 ```
 Figure2.4:Diagramme par secteur
 ```
+
+```console
 Le degré d’un secteur est déterminé à l’aide de la règle de trois de la manière suivante :
 
 ```
+```js
                 N−→ 360 ◦ 
                 n i −→ d i (degréde la modalitéi).
                 Donc, d i = (n i * 360)/N 
