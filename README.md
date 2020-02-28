@@ -284,7 +284,9 @@ trouver à l’égard du caractère considéré.
 Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
 tères quantitatifs.
 ```
-# iamge1. 2
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image1_2jpg)
+
+ 
 
 #### 1.2.1 Caractère qualitatif
 
@@ -426,7 +428,8 @@ Pour chaque valeur x i, on pose par définition
 n i: le nombre d’individus qui ont le même x i, ça s’appelle effectif partiel de x i.
 ```
 
-# image 2.1
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_1.jpg)
+
 
 ```
 Figure2.1:Le nombre d’individus qui prennent la valeurx i.
@@ -598,7 +601,8 @@ Le graphique est un support visuel qui permet :
 visualiser d’un seul coup d’œil les principales caractéristiques (mais on
 perd une quantité d’informations), voir Figure 2.2.
 ```
-# image figure 2.2
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_2.jpg)
+
 ```
 Figure2.2:Quelques caractéristiques du graphique
 
@@ -633,7 +637,8 @@ Nous portons en abscisses les modalités, de façon arbitraire. Nous portons en 
 des rectangles dont la longueur est proportionnelle aux effectifs, ou aux fréquences, de chaque
 modalité (voir Figure 2.3).
 ```
-# image figure 2.3
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_3.jpg)
+
 
 ```
 Figure2.3:Tuyaux d’orgues
@@ -645,7 +650,8 @@ Les diagrammes circulaires, ou semi-circulaires, consistent à partager un disqu
 demi-disque, en tranches, ou secteurs, correspondant aux modalités observées et dont la
 surface est proportionnelle à l’effectif, ou à la fréquence, de la modalité (voir Figure 2.4).
 ```
-# image figure 2.4
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_4.jpg)
+
 ```
 Figure2.4:Diagramme par secteur
 ```
@@ -686,7 +692,8 @@ On veut représenter cette répartition sous la forme d’un diagramme en bâton
 chaque marque correspond un bâton. Les hauteurs des bâtons sont proportionnelles aux
 effectifs représentés (voir Figure 2.5).
 ```
-# image figure 2.5
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_5.jpg)
+
 
 ```
 Figure2.5:Diagramme à bâtons
@@ -736,7 +743,8 @@ Dans ce cas, nous avons:
 Cette courbe s’appelle "la courbe cumulative des fréquences". La courbe cumulative est une
 courbe en escalier représentant les fréquences cumulées relatives.
 ```
-# image figure 2.6
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_6.jpg)
+
 ```
 Figure2.6:Représentation d’une variable quantitative discrète par la courbe cumulative.
 ```
@@ -940,7 +948,8 @@ Le paramètre σ xmesure la distance moyenne entre x et les valeurs de X (voir F
     _dit que la série est hétérogène).
 ```
 
-# image figure 2.7
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_7.jpg)
+
 
 ```
 Figure2.7:La dispersion d’une série statistique autour de sa moyenne
@@ -1008,7 +1017,8 @@ sont des intervalles avec
 - a _k_ =L _k_ +1−L _k_ : son amplitude, son pas ou sa longueur.
 - C _k_ =x _k_ = (L _k_ +1+L _k_ )/ 2 : son centre.
 
-# image class
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/class.jpg)
+
 
 _Remarque 10_
 
@@ -1025,7 +1035,8 @@ En combien de classes partageons-nous les valeurs? la réponse n’est pas uniqu
 l’effectif total. Nous pouvons considérer dans ce cours trois réponses à titre d’exemple.
 ```
 
-# image figure 3.1
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_1.jpg)
+
 
 ```console
 
@@ -1096,7 +1107,8 @@ La quantité
 s’appelle effectif partiel de C i.
 
 ```
-# image figure 3.2
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_2.jpg)
+
 
 
 ```
@@ -1156,7 +1168,8 @@ dont l’aire est proportionnelle à la fréquencef _i_ (ou l’effectifn _i_ ) 
 appelé l’histogramme des fréquences (voir Figure 3.3).
 
 ```
-# image figure 3.3
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_3jpg)
+
 
 ```
 Figure3.3:Histogramme des fréquences ou des éffctifs.
