@@ -780,7 +780,7 @@ fréquence partielle) et il est dénoté parM 0.
 ```js
 Dans l’exemple précédent, le mode est égal à 2 qui correspondant au plus grand effectif.
 ```
-# image exemple 13
+# image figure 2.5
 
 
 _Remarque 5_
@@ -1007,7 +1007,7 @@ sont des intervalles avec
 - a _k_ =L _k_ +1−L _k_ : son amplitude, son pas ou sa longueur.
 - C _k_ =x _k_ = (L _k_ +1+L _k_ )/ 2 : son centre.
 
-# image class et valeur 
+# image class
 
 _Remarque 10_
 
