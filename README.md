@@ -1018,7 +1018,7 @@ sont des intervalles avec
 - a _k_ =L _k_ +1−L _k_ : son amplitude, son pas ou sa longueur.
 - C _k_ =x _k_ = (L _k_ +1+L _k_ )/ 2 : son centre.
 
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/class.jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/class2.jpg)
 
 
 _Remarque 10_
@@ -1036,7 +1036,7 @@ En combien de classes partageons-nous les valeurs? la réponse n’est pas uniqu
 l’effectif total. Nous pouvons considérer dans ce cours trois réponses à titre d’exemple.
 ```
 
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_1.jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/classjpg)
 
 
 ```console
@@ -1169,7 +1169,7 @@ dont l’aire est proportionnelle à la fréquencef _i_ (ou l’effectifn _i_ ) 
 appelé l’histogramme des fréquences (voir Figure 3.3).
 
 ```
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_3jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_3.jpg)
 
 
 ```
