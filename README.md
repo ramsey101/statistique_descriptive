@@ -284,7 +284,7 @@ trouver à l’égard du caractère considéré.
 Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
 tères quantitatifs.
 ```
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image1_2jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image1_2.jpg)
 
  
 
@@ -789,7 +789,8 @@ fréquence partielle) et il est dénoté parM 0.
 ```js
 Dans l’exemple précédent, le mode est égal à 2 qui correspondant au plus grand effectif.
 ```
-# image figure 2.5
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image2_5.jpg)
+
 
 
 _Remarque 5_
