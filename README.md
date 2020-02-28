@@ -1108,7 +1108,7 @@ La quantité
 s’appelle effectif partiel de C i.
 
 ```
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_2.jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/p.jpg)
 
 
 
