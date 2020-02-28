@@ -1036,7 +1036,7 @@ En combien de classes partageons-nous les valeurs? la réponse n’est pas uniqu
 l’effectif total. Nous pouvons considérer dans ce cours trois réponses à titre d’exemple.
 ```
 
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/classjpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/class.jpg)
 
 
 ```console
