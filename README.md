@@ -2101,10 +2101,12 @@ _Remarque 22_
 Le coefficient de corrélationρXY permet de justifier le fait de l’ajustement linéaire.
 On adopte les critères numériques suivants (voir Figure 4.8),
 ```
-– Si | ρXY |< 0. 7 , alors l’ajustement linéaire est refusé (droite refusée).
 
-– Si | ρXY |≥ 0. 7 , alors l’ajustement linéaire est accepté (droite acceptée).
+```bash
+Si | ρXY |< 0. 7 , alors l’ajustement linéaire est refusé (droite refusée).
 
+Si | ρXY |≥ 0. 7 , alors l’ajustement linéaire est accepté (droite acceptée).
+```
  
 
 
