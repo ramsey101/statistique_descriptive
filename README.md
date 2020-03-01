@@ -2004,7 +2004,7 @@ Figure4.7:La droite la plus proche possible de chacun des points.
 ```console
 Pour cela, on utilise la méthode des moindres carrées. Cette méthode vise à expliquer un
 nuage de points par une droite qui lié Y à X, c’est à dire,
-
+```
 ```js
                           Y =aX+b,
 ```
