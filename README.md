@@ -1290,15 +1290,18 @@ grand effectif partiel (ou la plus grande fréquence partielle). La quantité
 ```
 
 
-M 0 =L i + (∆1/(∆ 1 + ∆ 2))ai
+```js
+M 0 =L i + (∆1/(∆ 1 + ∆ 2))a i
+```
 s’appelle le mode avec (voir Figure 3.7)
-_-_ L _i: la borne inférieure de la classe modale.
--_ a _i: le pas de la classe modale.
--_ ∆ 1 =n 0 −n 1 _,_ ∆ 2 =n 0 −n 2 _ou bien_ ∆ 1 =f 0 −f 1 _,_ ∆ 2 =f 0 −f 2_.
--_ n 0 _et_ f 0 _sont l’effectif et la fréquence associés à la classe modale.
--_ n 1 _et_ f 1 _sont l’effectif et la fréquence de la classe qui précède la classe modale.
--_ n 2 _et_ f 2 _sont l’effectif et la fréquence de la classe qui suit la classe modale._
-
+```js
+L i: la borne inférieure de la classe modale.
+a i: le pas de la classe modale.
+∆ 1 =n 0 −n 1 , ∆ 2 =n 0 −n 2 ou bien ∆ 1 =f 0 −f 1 , ∆ 2 =f 0 −f 2.
+n 0 et f 0 sont l’effectif et la fréquence associés à la classe modale.
+n 1 et f 1 sont l’effectif et la fréquence de la classe qui précède la classe modale.
+n 2 et f 2 sont l’effectif et la fréquence de la classe qui suit la classe modale.
+```
 
 # image 3.7
 ```
@@ -1357,7 +1360,7 @@ Figure3.8:Le calcul de la médiane par extrapolation.
 
 ### 3.4 Paramètres de dispersion
 
-```
+
 **Définition 22**
 
 ```console
