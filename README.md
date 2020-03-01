@@ -1288,7 +1288,7 @@ d’une manière exacte et qui se trouve dans une des classes appelée "classe m
 Nous définissions la classe modale comme étant la classe des valeurs de X qui a le plus
 grand effectif partiel (ou la plus grande fréquence partielle). La quantité
 ```
-```js
+
 
 M 0 =L i + (∆1/(∆ 1 + ∆ 2))ai
 s’appelle le mode avec (voir Figure 3.7)
@@ -1299,7 +1299,7 @@ _-_ L _i: la borne inférieure de la classe modale.
 -_ n 1 _et_ f 1 _sont l’effectif et la fréquence de la classe qui précède la classe modale.
 -_ n 2 _et_ f 2 _sont l’effectif et la fréquence de la classe qui suit la classe modale._
 
-```
+
 # image 3.7
 ```
 Figure3.7:Représentation ou détermination graphique du mode (cas continu).
@@ -1317,7 +1317,7 @@ deux segments représentés dans la Figure 3.7. Cette notion n’est pas unique.
 **Définition 21**
 
 ```console
-C'’est la valeur Me telle que F(Me) = 0. 5. Cette valeur est unique.
+C'est la valeur Me telle que F(Me) = 0. 5. Cette valeur est unique.
 
 ```
 
@@ -1417,7 +1417,7 @@ La détermination ou le calcul deQ _i_ se fait exactement comme le calcul de la 
 ```
 **Interprétation** : 
 
-```
+```console
 Il y a 25 % d’individus dont la valeur du caractère est dans l’in-
 tervalle[a 0 ,Q 1 ]. De même pour les autres quartiles. Ces intervalles s’appellent "intervalles
 interquartiles".
@@ -1472,7 +1472,7 @@ un entier fini. Le couple(X,Y)est appelé le couple de la variable statistique.
 
 - Exemple 20
 
-```console
+
 
 - On observe simultanément sur un échantillon de 200 foyers, le nombre d’enfants
     X et le nombre de chambre Y. 
@@ -1496,12 +1496,13 @@ Les séries statistiques à deux variables peuvent être présentées de deux fa
 ```console
 A chaquew i , on associé(x i ,y i ), c’est à dire,
 ```
+
 ```js
                           w i →(x i ,y i ).
 ```
 ```console
 On rassemblera les données comme dans le tableau suivant
-
+```
 
 | w i | w 1 | w 2 | ... | w N |
 |-----|-----|-----|-----|-----|
@@ -1511,7 +1512,8 @@ On rassemblera les données comme dans le tableau suivant
 
 ```console
 Cette représentation on la notera "présentation 1 ". Nous allons utiliser toujours les notations
-suivantes :```
+suivantes :
+```
 ```js
 
                  x i :=X(w i)
@@ -1597,7 +1599,9 @@ Figure4.2:Le nombre d’individus qui prennent en même temps la valeurx i ety i
 Nous notons parf ij la fréquence du coulpe(x i,y i). Cette fréquence est donnée par
 
 ```
+```js
                   f ij := n ij/N,
+```
 ```console
 avec
 ```
