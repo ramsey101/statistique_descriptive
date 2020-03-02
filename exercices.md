@@ -136,4 +136,47 @@ tableaux suivants :
 
 
 Calculer la moyenne et l’écart type de chaque groupe. Comparer les deux groupes.
+
 ```
+
+Chapitre 3
+
+Exercice 16
+- Classer ces statistiques selon leurs natures (indicateur de position ou de dispersion)
+Minimum Moyenne Écart-type Mode Médiane Premier quartile
+Position
+Dispersion
+
+Exo
+
+Une étude sur le budget consacré aux vacances d’été auprès de ménages a donné les
+
+résultats suivants
+
+Budget X Fréquence cumulée Fréquences
+
+[800, 1000[ 0.08
+
+[1000, 1400[ 0.18
+
+[1400, 1600[ 0.34
+
+[1600, β[ 0.64
+
+[β, 2400[ 0.73
+
+[2400, α[ 1
+
+Le travail demandé :
+
+– Certaines données sont manquantes. Calculer la borne manquante α sachant que
+
+l’étendue de la série est égale à 3200.
+
+– Calculer les fréquences dans le tableau.
+
+– Calculer la borne manquante β dans les deux cas suivants :
+
+1. Le budget moyen est égal à 1995.
+
+2. Le budget médian est égal à 1920.
