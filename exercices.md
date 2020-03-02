@@ -8,7 +8,7 @@
 ```js
 La variable statistique "couleur de maisons d'un quartier" est :
 ```
-- [ ] Qualitative
+- [ ] Qualitative v
 - [ ] Quantitative
 
 - [ ] Discrète
@@ -18,7 +18,7 @@ La variable statistique "couleur de maisons d'un quartier" est :
 La variable statistique "revenu brut" est :
 ```
 - [ ] Qualitative
-- [ ] Quantitative
+- [ ] Quantitative v
 
 - [ ] Discrète
 - [ ] Continue
