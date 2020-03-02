@@ -1234,7 +1234,7 @@ Ce qui implique la formule de la fonction de répartition
 F(x) = (f i +1/h)(x−L i ) +F i.
 ```
 
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_4.jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_8.jpg)
 
 
 ```
