@@ -15,14 +15,15 @@ Le cours vise principalement à introduire et faire méditer les concepts fondam
 méthodes élémentaires de la statistique pour permettre un apprentissage autonome ultérieur
 de méthodes complémentaires.
 
-On veut développer le sens critique nécessaire lors de la mise en œuvre et de l’interpré-
-tation d’un traitement statistique. Pour cela, on introduira et utilisera un cadre mathéma-
-tique rigoureux. Nous fournirons autant d’exemples et de figures nécessaires afin d’obtenir
+On veut développer le sens critique nécessaire lors de la mise en œuvre et de 
+l’interprétation d’un traitement statistique.
+Pour cela, on introduira et utilisera un cadre mathématique rigoureux.
+Nous fournirons autant d’exemples et de figures nécessaires afin d’obtenir
 une meilleure compréhension du cours.
 
-La statistique descriptive a pour but d’étudier un phénomène à partir de données. Cette
-description se fait à travers la présentation des données (la plus synthétique possible), leur
-représentation graphique et le calcul de résumés numériques.
+La statistique descriptive a pour but d’étudier un phénomène à partir de données. 
+Cette description se fait à travers la présentation des données (la plus synthétique possible),
+leur représentation graphique et le calcul de résumés numériques.
 ```
 
 ```console
@@ -93,18 +94,21 @@ F(x) La fonction s’appelle la fonction de répartition du caractère X
 # Généralités sur la statistique
 
 ```console
-La statistique est l’étude de la collecte de données, leur analyse, leur traitement, l’in-
-terprétation des résultats et leur présentation afin de rendre les données compréhensibles
-par tous. C’est à la fois une science, une méthode et un ensemble de techniques.
+La statistique est l’étude de la collecte de données, leur analyse, leur traitement, 
+l’interprétation des résultats et leur présentation afin de rendre les données
+compréhensibles par tous. 
+C’est à la fois une science, une méthode et un ensemble de techniques.
 
-L’analyse des données est utilisée pour d’écrire les phénomènes étudiés, faire des pré-
-visions et prendre des décisions à leur sujet. En cela, la statistique est un outil essentiel
-pour la compréhension et la gestion des phénomènes complexes.
+L’analyse des données est utilisée pour d’écrire les phénomènes étudiés, faire des 
+prévisions et prendre des décisions à leur sujet. 
+En cela, la statistique est un outil essentiel pour la compréhension et la gestion des 
+phénomènes complexes.
 
 Les données étudiées peuvent être de toute nature, ce qui rend la statistique utile
 dans tous les champs disciplinaires et explique pourquoi elle est enseignée dans toutes les
 filières universitaires, de l’économie à la biologie en passant par la psychologie et bien sûr
-les sciences de l’ingénieur. La statistique consiste à :
+les sciences de l’ingénieur. 
+La statistique consiste à :
 ```
 
 - Recueillir des données.
@@ -117,19 +121,21 @@ les sciences de l’ingénieur. La statistique consiste à :
 ```console
 Les statistiques consistent en diverses méthodes de classement des données tels que les
 tableaux, les histogrammes et les graphiques, permettant d’organiser un grand nombre de
-données. Les statistiques se sont développées dans la deuxième moitié du XIXe siècle dans
-le domaine des sciences humaines (sociologie, économie, anthropologie, ...). Elles se sont
-dotées d’un vocabulaire particulier.
+données. 
+Les statistiques se sont développées dans la deuxième moitié du XIXe siècle dans
+le domaine des sciences humaines (sociologie, économie, anthropologie, ...). 
+Elles se sont dotées d’un vocabulaire particulier.
 ```
 
 
 #### 1.1.1 Épreuve statistique
 
 ```console
-Les statistiques descriptives visent à étudier les caractéristiques d’un ensemble d’ob-
-servations comme les mesures obtenues lors d’une expérience. L’expérience est l’étape pré-
-liminaire à toute étude statistique. Il s’agit de prendre "contact" avec les observations. De
-manière générale, la méthode statistique est basée sur le concept suivant.
+Les statistiques descriptives visent à étudier les caractéristiques d’un ensemble 
+d’observations comme les mesures obtenues lors d’une expérience.
+L’expérience est l’étape préliminaire à toute étude statistique. 
+Il s’agit de prendre "contact" avec les observations. 
+De manière générale, la méthode statistique est basée sur le concept suivant.
 ```
 
 **Définition 1**
@@ -143,19 +149,21 @@ L’épreuve statistique est une expérience que l’on provoque.
 
 Imaginons le cas suivant : un fabricant d’ampoules électriques ayant le choix entre
 4 types de filaments se propose d’étudier l’influence de la nature du filament sur la
-durée de vie des ampoules fabriquées. Pour ce faire, il va faire fabriquer 4 échantillons
-d’ampoules identiques, sauf en ce qui concerne le filament, faire brûler les ampoules
+durée de vie des ampoules fabriquées. 
+Pour ce faire, il va faire fabriquer 4 échantillons d’ampoules identiques, 
+sauf en ce qui concerne le filament, faire brûler les ampoules
 jusqu’à extinction, puis comparer les résultats obtenus.
 ```
 #### 1.1.2 Population
 
 ```console
-En statistique, on travaille sur des populations. Ce terme vient du fait que la démo-
-graphie, étude des populations humaines, a occupé une place centrale aux débuts de la
-statistique, notamment au travers des recensements de population. Mais, en statistique,
-le terme de population s’applique à tout objet statistique étudié, qu’il s’agisse d’étudiants
-(d’une université ou d’un pays), de ménages ou de n’importe quel autre ensemble sur lequel
-on fait des observations statistiques. Nous définissons la notion de population.
+En statistique, on travaille sur des populations. Ce terme vient du fait que la 
+démographie, étude des populations humaines, a occupé une place centrale aux débuts de la
+statistique, notamment au travers des recensements de population. 
+Mais, en statistique,le terme de population s’applique à tout objet statistique étudié, 
+qu’il s’agisse d’étudiants (d’une université ou d’un pays), de ménages ou de n’importe 
+quel autre ensemble sur lequel on fait des observations statistiques. 
+Nous définissons la notion de population.
 ```
 
 **Définition 2**
@@ -177,8 +185,8 @@ est noté Ω.
 ```
 
 ```console
-Si l’on s’intéresse maintenant a la circulation automobile dans une ville, la po-_
-pulation est alors constituée de l’ensemble des véhicules susceptibles de circuler_
+Si l’on s’intéresse maintenant a la circulation automobile dans une ville, la po
+pulation est alors constituée de l’ensemble des véhicules susceptibles de circuler
 dans cette ville à une date donnée. Dans ce cas :
 ```
 
@@ -203,8 +211,8 @@ _Remarque 1_
 
 ```console
 L’ensemble Ω peut être un ensemble de personnes, de choses ou d’animaux...
-L’unité statistique est un objet pour lequel nous sommes intéressés à recueillir de l’in-
-formation.
+L’unité statistique est un objet pour lequel nous sommes intéressés à recueillir 
+de l’information.
 ```
 
 - Exemple 3
@@ -219,9 +227,8 @@ une boîte constitue un individu.
 #### 1.1.4 Caractère (variable statistique)
 
 ```console
-La statistique « descriptive », comme son nom l’indique cherche à décrire une po-
-pulation donnée. Nous nous intéressons au caractéristique des unités qui peuvent prendre
-différentes valeurs.
+La statistique « descriptive », comme son nom l’indique cherche à décrire une population donnée.
+Nous nous intéressons au caractéristique des unités qui peuvent prendre différentes valeurs.
 
 ```
 
@@ -281,8 +288,8 @@ trouver à l’égard du caractère considéré.
 ### 1.2 Types des caractères
 
 ```console
-Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
-tères quantitatifs.
+Nous distinguons deux catégories de caractères : les caractères qualitatifs et les 
+caractères quantitatifs.
 ```
 
 ![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image1_2.jpg)
@@ -345,15 +352,15 @@ La rigidité des ressorts.
 
 ```console
 En général, la variable quantitative discrète est une variable ne prenant que des valeurs
-entières (plus rarement décimales). Le nombre de valeurs distinctes d’une telle variable
-est habituellement assez faible. Citons, par exemple, le nombre de maisons par quartier
-d’une ville. Une variable quantitative est dite continue lorsque les observations qui lui sont
-associées ne sont pas des valeurs précises, mais des intervalles. C’est le cas lorsque nous
-avons un grand nombre d’observations distinctes.
+entières (plus rarement décimales).
+Le nombre de valeurs distinctes d’une telle variable est habituellement assez faible. 
+Citons, par exemple, le nombre de maisons par quartier d’une ville. Une variable quantitative
+est dite continue lorsque les observations qui lui sont associées ne sont pas des valeurs 
+précises, mais des intervalles. C’est le cas lorsque nous avons un grand nombre d’observations distinctes.
 
 La statistique descriptive a pour objectif de synthétiser l’information contenue dans
-les jeux de données au moyen de tableaux, figures ou résumés numériques. Les variables
-statistiques sont analysées différemment selon leur nature (quantitative, qualitative).
+les jeux de données au moyen de tableaux, figures ou résumés numériques.
+Les variables statistiques sont analysées différemment selon leur nature (quantitative, qualitative).
 ```
 
 ## Chapitre 2
@@ -413,7 +420,7 @@ On lit, à la famille ω , on associe X(ω) = le nombre d’enfants de cette fam
 ### 2.1 Effectif partiel - effectif cumulé
 
 ```console
-On étudie ici un caractère statistique numérique représenté par une suitex _i_ décrivant
+On étudie ici un caractère statistique numérique représenté par une suitex i décrivant
 la valeur du caractère avecivarie de 1 àk.
 ```
 
@@ -493,7 +500,7 @@ Dans notre exemple précédent, nous avonsN= 200.
 ### 2.2 Fréquence partielle - Fréquence cumulée
 
 ```console
-Typiquement les effectifsn i sont grands et il est intéressant de calculer des 
+Typiquement les effectifs n i sont grands et il est intéressant de calculer des 
 grandeurs permettant de résumer la série. 
 
 ```
@@ -591,8 +598,8 @@ est inférieur ou égale à 3.
 
 ```console
 On distingue les méthodes de représentation d’une variable statistique en fonction de
-la nature de cette variable (qualitative ou quantitative). Les représentations recommandées
-et les plus fréquentes sont les tableaux et les diagrammes (graphe).
+la nature de cette variable (qualitative ou quantitative). 
+Les représentations recommandées et les plus fréquentes sont les tableaux et les diagrammes (graphe).
 
 
 Le graphique est un support visuel qui permet :
