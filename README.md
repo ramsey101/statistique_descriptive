@@ -1440,7 +1440,7 @@ interquartiles".
                 Q3 →75%.
 ```
 
-![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_9jpg)
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_9.jpg)
 
 ```
 Figure3.9:Les quartiles.
