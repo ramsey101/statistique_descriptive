@@ -14,8 +14,9 @@ La variable statistique "couleur de maisons d'un quartier" est :
 - [ ] Discrète
 - [ ] Continue
 
-- La variable statistique "revenu brut" est :
-
+```js
+La variable statistique "revenu brut" est :
+```
 - [ ] Qualitative
 - [ ] Quantitative
 
@@ -23,8 +24,9 @@ La variable statistique "couleur de maisons d'un quartier" est :
 - [ ] Continue
 
 
-- La variable statistique "nombre de maisons vendues par ville" est :
-
+```js
+La variable statistique "nombre de maisons vendues par ville" est :
+```
 - [ ] Qualitative
 - [ ] Quantitative
 
@@ -100,8 +102,8 @@ par jour. Son relevé a porté sur les ventes des mois de Mars et Avril, ce qui 
 52 jours de vente. Le relevé des observations se présente comme suit :
 ````
 | 7 | 13 | 8 | 10 | 9 | 12 | 10 | 8 | 9 | 10 | 6 | 14 | 7 | 15 | 9 | 11 | 12 | 11 | 12 | 5 | 14 | 11 | 8 | 10 | 14 | 12 | 8 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 5 | 7 | 13| 12 | 16 | 11 | 9 | 11 | 11 | 12 | 12| 15 |14 | 5 | 14 | 9 | 9 | 14 | 13 | 11 |10| 11| 12 | 9 | 15|.
+|---|--- |---|--- |---|--- |--- |---|---|--- |---|--- |---|--- |---|--- |--- |--- |--- |---|--- |--- |---|--- |--- |--- |---|
+| 5 | 7  | 13| 12 | 16| 11 | 9  | 11| 11| 12 | 12| 15 |14 | 5  | 14| 9  | 9  | 14 | 13 | 11|10  | 11 | 12| 9  | 15|.
 
 ```console
 
