@@ -187,25 +187,22 @@ l’étendue de la série est égale à 3200.
 ## CHAPITRE 4
 
 **Exercice 1**
-
+```console
 Nous considérons 10 joueurs et soient :
+```
 
 – Y la variable qui représente le nombre de jeux auquel un joueur joue.
-
 – X la variable qui représente le gain ou perte (+1 s’il gagne 10 Da et −1 s’il perd 10
-
 Da et 0 sinon).
-
+```conole
 Nous avons le tableau de contingence suivant,
-X \ Y 1 2 3 4 ni•
-
-−1 0 1 2 2
-
-0 1 1 0 1
-
-1 0 1 1 0
-
-n•j
+````
+| X \ Y | 1 | 2 | 3 | 4 | ni• | 
+| ------|---|---|---|---|-----|  
+| −1 | 0 | 1 | 2 | 2 |
+| 0 | 1 | 1 | 0 | 1 |
+| 1 | 0 | 1 | 1 | 0 |
+| n•j |...|...|...|...|...|
 
 1. Compléter le tableau ci-dessus.
 
