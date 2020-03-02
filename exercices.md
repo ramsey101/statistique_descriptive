@@ -1,42 +1,42 @@
 # Exercices 
 
+
+## CHAPITRE 1
+
 ***Exercice 1***
 
 ```js
 La variable statistique "couleur de maisons d'un quartier" est :
 ```
-- [] Qualitative
-- [] Quantitative
+- [ ] Qualitative
+- [ ] Quantitative
 
-- [] Discrète
-- [] Continue
+- [ ] Discrète
+- [ ] Continue
 
 - La variable statistique "revenu brut" est :
 
-- [] Qualitative
-- [] Quantitative
+- [ ] Qualitative
+- [ ] Quantitative
 
-- [] Discrète
-- [] Continue
+- [ ] Discrète
+- [ ] Continue
 
 
 - La variable statistique "nombre de maisons vendues par ville" est :
 
-- [] Qualitative
-- [] Quantitative
+- [ ] Qualitative
+- [ ] Quantitative
 
-- [] Discrète
-- [] Continue
+- [ ] Discrète
+- [ ] Continue
 
 
 **Exercice 2**
 
-```js
+```consle
 Parmi ces assertions, préciser celles qui sont vrai, et celles qui sont fausses.
 ````
-Exercice 2
-
-- Parmi ces assertions, préciser celles qui sont vraies, celles qui sont fausses.
 
 1. On appelle variable, une caractéristique que l’on étudie.
 
@@ -64,26 +64,27 @@ diaire et grosse.
 
 
 
-Exercice 3
+**Exercice 3**
 
-- Proposer des exemples de variable quantitative transformée en variable qualitative. Préciser
+- Proposer des exemples de variable quantitative transformée en variable qualitative.
+Préciser les modalités de cette dernière.
 
-les modalités de cette dernière.
+Solution : Les variables quantitatives dans le tableau ci-dessous peuvent être transformées en
+variable qualitative. 
+Les modalités de cette dernière sont précisées dans la seconde colonne.
 
-Solution : Les variables quantitatives dans le tableau ci-dessous peuvent être transfor-
+| Variable | quantitative Modalités envisageables |
+|----------|--------------------------------------|
+| Hauteur  | .....................................|
+|Poids     | .....................................|
+|Rendement | .....................................|
+|Chiffre d’affaire |..............................|
+|Cylindrée | .....................................|
 
-mées en variable qualitative. Les modalités de cette dernière sont précisées dans la seconde
 
-colonne.
+## CHAPITRE 2
 
-Variable quantitative Modalités envisageables
 
-Hauteur Petit, Moyen, Grand
 
-Poids Très léger, Léger, Moyen, Lourd, Très lourd
 
-Rendement Faible, Moyen, Elevé
 
-Chiffre d’affaire Modéré, Moyen, Important, Très important
-
-Cylindrée Petite, Moyenne, Grosse
