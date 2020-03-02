@@ -34,7 +34,7 @@ La variable statistique "couleur de maisons d'un quartier" est :
 
 **Exercice 2**
 
-```consle
+```console
 Parmi ces assertions, préciser celles qui sont vrai, et celles qui sont fausses.
 ````
 
@@ -42,36 +42,29 @@ Parmi ces assertions, préciser celles qui sont vrai, et celles qui sont fausses
 
 2. La tâche de la statistique descriptive est de recueillir des données.
 
-3. La tâche de la statistique descriptive est de présenter les données sous forme de ta-
-
-bleaux, de graphiques et d’indicateurs statistiques.
+3. La tâche de la statistique descriptive est de présenter les données sous forme de 
+tableaux, de graphiques et d’indicateurs statistiques.
 
 4. En Statistique, on classe les variables selon différents types.
 
 5. Les valeurs des variables sont aussi appelées modalités.
 
-6. Pour une variable qualitative, chaque individu statistique ne peut avoir qu’une seule
+6. Pour une variable qualitative, chaque individu statistique ne peut avoir qu’une seule modalité.
 
-modalité.
+7. Pour faire des traitements statistiques, il arrive qu’on transforme une variable 
+quantitative en variable qualitative.
 
-7. Pour faire des traitements statistiques, il arrive qu’on transforme une variable quan-
-
-titative en variable qualitative.
-
-8. La variable quantitatipoids d’automobile peut être reclassée en compacte, intermé-
-
-diaire et grosse.
+8. La variable quantitatipoids d’automobile peut être reclassée en compacte, intermédiaire et grosse.
 
 
 
 **Exercice 3**
 
-- Proposer des exemples de variable quantitative transformée en variable qualitative.
-Préciser les modalités de cette dernière.
+```console
 
-Solution : Les variables quantitatives dans le tableau ci-dessous peuvent être transformées en
-variable qualitative. 
-Les modalités de cette dernière sont précisées dans la seconde colonne.
+Proposer des exemples de variable quantitative transformée en variable qualitative.
+Préciser les modalités de cette dernière.
+```
 
 | Variable | quantitative Modalités envisageables |
 |----------|--------------------------------------|
@@ -84,55 +77,61 @@ Les modalités de cette dernière sont précisées dans la seconde colonne.
 
 ## CHAPITRE 2
 
-
+**Exercice 1**
+```js
 Le tableau suivant donne la répartition selon le groupe sanguin de 40 individus pris au
 hasard dans une population,
-Groupes sanguins A B AB O
-L’effectif 20 10 n3 5
+```
+
+| Groupes sanguins | A | B | AB | O |
+|------------------|---|---|----|---|
+| L’effectif       | 20| 10| n3 | 5 |
+
+```js
 1. Déterminer la variable statistique et son type.
 2. Déterminer l’effectif des personnes ayant un groupe sanguin AB.
+```
+**Exercice 2**
 
-
-
-Exercice 8
-
-- Le gérant d’un magasin vendant des articles de consommation courante a relevé pour un
-
+```js
+Le gérant d’un magasin vendant des articles de consommation courante a relevé pour un
 article particulier qui semble connaître une très forte popularité, le nombre d’articles vendus
-
 par jour. Son relevé a porté sur les ventes des mois de Mars et Avril, ce qui correspond à
-
 52 jours de vente. Le relevé des observations se présente comme suit :
+````
+| 7 | 13 | 8 | 10 | 9 | 12 | 10 | 8 | 9 | 10 | 6 | 14 | 7 | 15 | 9 | 11 | 12 | 11 | 12 | 5 | 14 | 11 | 8 | 10 | 14 | 12 | 8 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 5 | 7 | 13| 12 | 16 | 11 | 9 | 11 | 11 | 12 | 12| 15 |14 | 5 | 14 | 9 | 9 | 14 | 13 | 11 |10| 11| 12 | 9 | 15|.
 
-7 13 8 10 9 12 10 8 9 10 6 14 7 15 9 11 12 11 12 5 14 11 8 10 14 12 8
-
-5 7 13 12 16 11 9 11 11 12 12 15 14 5 14 9 9 14 13 11 10 11 12 9 15.
+```console
 
 1. Quel type est la variable statistique étudiée.
-
 2. Déterminer le tableau statistique en fonction des effectifs, des fréquences, des effectifs
-
 cumulés et des fréquences cumulés.
-
-3. Tracer le diagramme des bâtonnés associé à la variable X.
-
 4. Soit Fx la fonction de répartition. Déterminer Fx.
 5. Calculer le mode Mo et la moyenne arithmétique x.
 6. Déterminer à partir du tableau puis à partir du graphe, la valeur de la médiane Me.
 7. Calculer la variance et l’écart-type.
+````
 
-Exercice 9
+**Exercice 3**
+```console
 
 - On considère deux groupes d’étudiants. Nous relevons leurs notes d’examens dans les deux
-
 tableaux suivants :
+```
 
-Note (groupe A) 8 9 10 11
+|Note (groupe A)| 8 | 9 | 10 | 11 |
+|---------------|---|---|---|---|
+|Effectif | 2 | 2 | 1 | 1 |
 
-Effectif 2 2 1 1
 
-Note (groupe B) 6 8 9 13 14
+|Note (groupe B)| 6 | 8 | 9 | 13 | 14 |
+|---------------|---|---|---|---|---|
+|Effectif| 2 | 2 | 2 | 1 | 1 |
 
-Effectif 2 2 2 1 1
+```js
+
 
 Calculer la moyenne et l’écart type de chaque groupe. Comparer les deux groupes.
+```
