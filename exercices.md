@@ -151,26 +151,26 @@ Classer ces statistiques selon leurs natures (indicateur de position ou de dispe
 |Position |---------|---------|------------|------|---------|------------------|
 |Dispersion |---------|---------|------------|------|---------|------------------|
 
-**Exercice 2*
+**Exercice 2**
 ```js
 Une étude sur le budget consacré aux vacances d’été auprès de ménages a donné les
 résultats suivants
 ```
 
-|Budget X | Fréquence cumulée | Fréquences |
-
-|[800, 1000[| 0.08 |    |
+| Budget X | Fréquence cumulée | Fréquences |
 |-----------|------|----|
+|[800, 1000[| 0.08 |....|
 
-|[1000, 1400[| 0.18 |    |
 
-|[1400, 1600[| 0.34 |    |
+|[1000, 1400[| 0.18 |....|
 
-|[1600, β[| 0.64 |    |
+|[1400, 1600[| 0.34 |....|
 
-|[β, 2400[| 0.73 |    |
+|[1600, β[| 0.64 |....|
 
-|[2400, α[| 1 |    |
+|[β, 2400[| 0.73 |....|
+
+|[2400, α[| 1 |....|
 
 
 ```js
