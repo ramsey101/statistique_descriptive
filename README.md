@@ -2142,4 +2142,4 @@ Figure4.8:La zone d’acceptation ou de refus de l’ajustement linéaire.
 
 
 #### Fin du cours.
-#### Consulter la partie exercice pour vous entraîner. [exercices]()
+#### Consulter la partie exercice pour vous entraîner. [exercices](https://github.com/daniel497/statistique_descriptive/edit/master/exercices.md)
