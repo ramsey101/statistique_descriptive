@@ -85,6 +85,54 @@ Les modalités de cette dernière sont précisées dans la seconde colonne.
 ## CHAPITRE 2
 
 
+Le tableau suivant donne la répartition selon le groupe sanguin de 40 individus pris au
+hasard dans une population,
+Groupes sanguins A B AB O
+L’effectif 20 10 n3 5
+1. Déterminer la variable statistique et son type.
+2. Déterminer l’effectif des personnes ayant un groupe sanguin AB.
 
 
 
+Exercice 8
+
+- Le gérant d’un magasin vendant des articles de consommation courante a relevé pour un
+
+article particulier qui semble connaître une très forte popularité, le nombre d’articles vendus
+
+par jour. Son relevé a porté sur les ventes des mois de Mars et Avril, ce qui correspond à
+
+52 jours de vente. Le relevé des observations se présente comme suit :
+
+7 13 8 10 9 12 10 8 9 10 6 14 7 15 9 11 12 11 12 5 14 11 8 10 14 12 8
+
+5 7 13 12 16 11 9 11 11 12 12 15 14 5 14 9 9 14 13 11 10 11 12 9 15.
+
+1. Quel type est la variable statistique étudiée.
+
+2. Déterminer le tableau statistique en fonction des effectifs, des fréquences, des effectifs
+
+cumulés et des fréquences cumulés.
+
+3. Tracer le diagramme des bâtonnés associé à la variable X.
+
+4. Soit Fx la fonction de répartition. Déterminer Fx.
+5. Calculer le mode Mo et la moyenne arithmétique x.
+6. Déterminer à partir du tableau puis à partir du graphe, la valeur de la médiane Me.
+7. Calculer la variance et l’écart-type.
+
+Exercice 9
+
+- On considère deux groupes d’étudiants. Nous relevons leurs notes d’examens dans les deux
+
+tableaux suivants :
+
+Note (groupe A) 8 9 10 11
+
+Effectif 2 2 1 1
+
+Note (groupe B) 6 8 9 13 14
+
+Effectif 2 2 2 1 1
+
+Calculer la moyenne et l’écart type de chaque groupe. Comparer les deux groupes.
