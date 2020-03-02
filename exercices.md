@@ -139,34 +139,41 @@ Calculer la moyenne et l’écart type de chaque groupe. Comparer les deux group
 
 ```
 
-Chapitre 3
+# Chapitre 3
 
-Exercice 16
-- Classer ces statistiques selon leurs natures (indicateur de position ou de dispersion)
-Minimum Moyenne Écart-type Mode Médiane Premier quartile
-Position
-Dispersion
+**Exercice 1*
 
-Exo
+```js
+Classer ces statistiques selon leurs natures (indicateur de position ou de dispersion)
+```
+| element | Minimum | Moyenne | Écart-type | Mode | Médiane | Premier quartile |
+|---------|---------|---------|------------|------|---------|------------------|
+|Position |---------|---------|------------|------|---------|------------------|
+|Dispersion |---------|---------|------------|------|---------|------------------|
 
+**Exercice 2*
+```js
 Une étude sur le budget consacré aux vacances d’été auprès de ménages a donné les
-
 résultats suivants
+```
 
-Budget X Fréquence cumulée Fréquences
+|Budget X | Fréquence cumulée | Fréquences |
 
-[800, 1000[ 0.08
+|[800, 1000[| 0.08 |    |
+|-----------|------|----|
 
-[1000, 1400[ 0.18
+|[1000, 1400[| 0.18 |    |
 
-[1400, 1600[ 0.34
+|[1400, 1600[| 0.34 |    |
 
-[1600, β[ 0.64
+|[1600, β[| 0.64 |    |
 
-[β, 2400[ 0.73
+|[β, 2400[| 0.73 |    |
 
-[2400, α[ 1
+|[2400, α[| 1 |    |
 
+
+```js
 Le travail demandé :
 
 – Certaines données sont manquantes. Calculer la borne manquante α sachant que
@@ -180,3 +187,9 @@ l’étendue de la série est égale à 3200.
 1. Le budget moyen est égal à 1995.
 
 2. Le budget médian est égal à 1920.
+```
+
+
+## CHAPITRE 4
+
+**Exercice 1**
