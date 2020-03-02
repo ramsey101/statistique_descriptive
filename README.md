@@ -3,7 +3,7 @@
 
 
 
-[NAN DATA ANALYST](https:nan.ci)
+[ © ® NAN DATA ANALYST](https:nan.ci)
 
 
 
@@ -284,6 +284,7 @@ trouver à l’égard du caractère considéré.
 Nous distinguons deux catégories de caractères : les caractères qualitatifs et les carac-
 tères quantitatifs.
 ```
+
 ![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image1_2.jpg)
 
  
@@ -1233,7 +1234,8 @@ Ce qui implique la formule de la fonction de répartition
 F(x) = (f i +1/h)(x−L i ) +F i.
 ```
 
-# image figure 3.4
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_4.jpg)
+
 
 ```
 Figure3.4:Le calcul deF x (x)par extrapolation.
@@ -1243,7 +1245,8 @@ Figure3.4:Le calcul deF x (x)par extrapolation.
 La courbe deF _x_ est nulle avanta 0 , constante égale à 1 aprèsa _n_ et joint les points(a 0 ,0),
 (a 1 ,F 1 ),...,(a _n_ ,1)par des segments de droites (voir Figure 3.5).
 ```
-# image 3.5
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_5.jpg)
+
 
 ```
 Figure3.5:La courbe des fréquences cumulées.
@@ -1254,7 +1257,8 @@ Figure3.5:La courbe des fréquences cumulées.
 On note parC _i_ le centre de la classeC _i_ et nous considéronsf _i_ la fréquence partielle
 deC _i_.
 ```
-#image figure 3.6
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_6.jpg)
+
 ```
 Figure3.6:Le centre de la classe.
 ```
@@ -1303,7 +1307,8 @@ n 1 et f 1 sont l’effectif et la fréquence de la classe qui précède la clas
 n 2 et f 2 sont l’effectif et la fréquence de la classe qui suit la classe modale.
 ```
 
-# image 3.7
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_7.jpg)
+
 ```
 Figure3.7:Représentation ou détermination graphique du mode (cas continu).
 ```
@@ -1352,7 +1357,8 @@ Nous retrouvons donc
 0 .5 =((f i +1)/h) (Me−L i ) +F i.
 ```
 
-# image 3.8
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_8.jpg)
+
 
 ```
 Figure3.8:Le calcul de la médiane par extrapolation.
@@ -1434,7 +1440,8 @@ interquartiles".
                 Q3 →75%.
 ```
 
-# image figure 3.9
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image3_9jpg)
+
 ```
 Figure3.9:Les quartiles.
 ```
@@ -1550,7 +1557,8 @@ tation est obtenue en mettant dans un repère cartésien chaque couple d’obser
 par un point.
 ```
 
-# image figure 4.1
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_1.jpg)
+
 
 ```
 Figure4.1:Représentation sous forme de nuage de points.
@@ -1592,7 +1600,8 @@ y i , c’est à dire,
                  n ij :=Card{w∈Ω :Z(w) =z ij }.
 ```
 
-### image figure 4.2
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_2.jpg)
+
 
 ```
 Figure4.2:Le nombre d’individus qui prennent en même temps la valeurx i ety i.
@@ -1869,7 +1878,8 @@ Nous notons parCov(X,Y)la covariance entre les variables X et Y. La covariance e
 un paramètre qui donne la variabilité deXpar rapport à Y (voir Figure 4.3).
 ```
 
-# image figure 4.3
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_3.jpg)
+
 
 ```
 Figure4.3:La covariance et la variabilité.
@@ -1958,14 +1968,16 @@ Nous avons les deux caractéristiques suivantes (voir Figures 4.5 et 4.6)^1 :
 – Plus le module de ρXY est proche de 1 plusXetY sont liées linéairement.
 – Plus le module de ρXY est proche de 0 plus il y a l’absence de liaison linéaire entre X et Y.
 
-# image figure 4.4
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_4.jpg)
+
 
 ```
 Figure4.4:A gauche, le coefficient de corrélation est proche de 1. A droite, le coefficient de
 corrélation est proche de 0.
 ```
 
-# image figure 4.5
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_5.jpg)
+
 ```
 Figure4.5:Exemples de diagrammes de dispersion avec différentes valeurs de coefficient de cor-
 rélation.
@@ -1975,10 +1987,11 @@ rélation.
 _Remarque 21_
 
 ```js
-Par définition, siρXY = 0 , alors Cov(X,Y) = 0.
+Par définition, si ρXY = 0 , alors Cov(X,Y) = 0.
 ```
 
-# image figure 4.6
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_6.jpg)
+
 
 ```js
 Figure4.6:La corrélation reflète la non-linéarité et la direction d’une relation linéaire mais pas
@@ -1995,7 +2008,8 @@ proche possible de chacun des points. On cherchera donc à minimiser les écarts
 points et la droite.
 ```
 
-# image figure 4.7
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_7.jpg)
+
 
 ```
 Figure4.7:La droite la plus proche possible de chacun des points.
@@ -2110,7 +2124,8 @@ Si | ρXY |≥ 0. 7 , alors l’ajustement linéaire est accepté (droite accept
  
 
 
-# image figure 4.8
+![Image](https://github.com/daniel497/statistique_descriptive/blob/master/image4_8.jpg)
+
 
 ```
 Figure4.8:La zone d’acceptation ou de refus de l’ajustement linéaire.
@@ -2120,4 +2135,4 @@ Figure4.8:La zone d’acceptation ou de refus de l’ajustement linéaire.
 
 
 #### Fin du cours.
-#### Consulter la partie exercice pour vous entraîner. 0
+#### Consulter la partie exercice pour vous entraîner. [exercices]()
