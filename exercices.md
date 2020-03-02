@@ -190,10 +190,11 @@ l’étendue de la série est égale à 3200.
 ```console
 Nous considérons 10 joueurs et soient :
 ```
-
-– Y la variable qui représente le nombre de jeux auquel un joueur joue.
-– X la variable qui représente le gain ou perte (+1 s’il gagne 10 Da et −1 s’il perd 10
+```js
+Y la variable qui représente le nombre de jeux auquel un joueur joue.
+X la variable qui représente le gain ou perte (+1 s’il gagne 10 Da et −1 s’il perd 10
 Da et 0 sinon).
+```
 ```conole
 Nous avons le tableau de contingence suivant,
 ````
